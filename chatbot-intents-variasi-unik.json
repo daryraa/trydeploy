@@ -1,0 +1,1463 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "Halo",
+        "Saya mau tanya tentang salam",
+        "Ceritakan tentang salam dong",
+        "Hai",
+        "Ping",
+        "Salam itu seperti apa?",
+        "Salam",
+        "Apa aja yang perlu diketahui tentang salam?",
+        "Hi",
+        "Ada info soal salam?",
+        "Selamat Malam",
+        "Selamat Siang",
+        "Apa Kabar",
+        "P",
+        "Selamat Pagi"
+      ],
+      "responses": [
+        "Halo!",
+        "Hai",
+        "Halo, ada yang bisa saya bantu?",
+        "Halo selamat datang",
+        "Hai Kawan"
+      ]
+    },
+    {
+      "tag": "nama",
+      "patterns": [
+        "lu sape ?",
+        "nama?",
+        "nama lo sape dah ?",
+        "nama kamu siapa?",
+        "Nama itu seperti apa?",
+        "Ada info soal nama?",
+        "Apa aja yang perlu diketahui tentang nama?",
+        "siapa sih lo?",
+        "lu siapa?",
+        "Ceritakan tentang nama dong",
+        "Saya mau tanya tentang nama"
+      ],
+      "responses": [
+        "Aku adalah AI yang akan membantu dalam menjawab pertanyaan seputar Kandungan, Anak, dan Gizi, Salam kenal",
+        "Halo, aku SIGIZI!",
+        "Kenalin, aku SIGIZI!"
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "Ceritakan tentang bye dong",
+        "Ok bye",
+        "Apa aja yang perlu diketahui tentang bye?",
+        "Saya mau tanya tentang bye",
+        "Semoga harimu menyenangkan",
+        "Dadah",
+        "Bye itu seperti apa?",
+        "Dah",
+        "Ok makasih",
+        "Ada info soal bye?",
+        "Selamat Tinggal",
+        "Daah",
+        "Sampai Jumpa Lagi"
+      ],
+      "responses": [
+        "Sampai jumpa lagi yaa",
+        "Kalau ada masalah, hubungi aku lagi ya",
+        "Semoga harimu menyenangkan!"
+      ]
+    },
+    {
+      "tag": "konsultasi_dokter",
+      "patterns": [
+        "Ceritakan tentang konsultasi dong",
+        "Ada info soal konsultasi?",
+        "Apa aja yang perlu diketahui tentang konsultasi?",
+        "Bagaimana saya tahu kapan harus konsultasi ke dokter?",
+        "Apa saya harus konsultasi ke dokter?",
+        "Perlukah saya segera konsultasi ke dokter?",
+        "Saya bingung, haruskah saya konsultasi ke dokter?",
+        "Kapan waktu terbaik untuk konsultasi ke dokter?",
+        "Kalau hamil, apa perlu konsultasi ke dokter?",
+        "Saya mau tanya tentang konsultasi",
+        "Saya harus konsultasi ke dokter kapan?",
+        "Kapan saya harus ke dokter?",
+        "Perlu gak saya konsultasi ke dokter?",
+        "Apakah sekarang saat yang tepat untuk konsultasi ke dokter?",
+        "Konsultasi itu seperti apa?"
+      ],
+      "responses": [
+        "Konsultasikan dengan dokter setidaknya sekali sebulan selama trimester pertama dan kedua, serta lebih sering di trimester ketiga.",
+        "Penting untuk mengikuti jadwal pemeriksaan yang direkomendasikan oleh dokter untuk memastikan kehamilan yang sehat.",
+        "Jangan ragu untuk berkonsultasi dengan dokter jika kamu memiliki kekhawatiran tentang kesehatanmu atau bayimu."
+      ]
+    },
+    {
+      "tag": "pergerakan_bayi",
+      "patterns": [
+        "Seberapa sering bayiku harus bergerak?",
+        "Bayiku sering bergerak di malam hari",
+        "Pergerakan itu seperti apa?",
+        "Saya mau tanya tentang pergerakan",
+        "Ceritakan tentang pergerakan dong",
+        "Apa aja yang perlu diketahui tentang pergerakan?",
+        "Apa arti pergerakan bayi dalam perut?",
+        "Apakah normal jika bayiku sangat aktif?",
+        "Ada info soal pergerakan?"
+      ],
+      "responses": [
+        "Pergerakan bayi adalah tanda bahwa ia sehat. Biasanya, bayi lebih aktif di malam hari.",
+        "Aktivitas bayi yang sering bergerak menandakan kesehatan yang baik, tetapi jika pergerakan tiba-tiba berkurang, segera konsultasikan dengan dokter.",
+        "Jumlah pergerakan bayi bisa bervariasi, tetapi sebaiknya perhatikan pola pergerakan dan segera periksakan jika ada perubahan."
+      ]
+    },
+    {
+      "tag": "kontraksi_palsu",
+      "patterns": [
+        "Aku sering merasakan perut kencang tiba-tiba, apa itu kontraksi?",
+        "Kenapa kontraksi datang lalu hilang begitu saja?",
+        "Saya mau tanya tentang kontraksi",
+        "Apakah ini kontraksi Braxton Hicks?",
+        "Apa bedanya kontraksi palsu dan kontraksi asli?",
+        "Kenapa aku merasa ada kontraksi padahal belum waktunya?",
+        "Ada info soal kontraksi?",
+        "Bagaimana cara membedakan kontraksi palsu dengan yang sebenarnya?",
+        "Ceritakan tentang kontraksi dong",
+        "Perutku mengencang tapi tidak sakit, itu normal?",
+        "Apa aja yang perlu diketahui tentang kontraksi?",
+        "Kontraksinya hilang setelah aku istirahat, apa itu tanda palsu?",
+        "Apakah semua ibu hamil pasti mengalami Braxton Hicks?",
+        "Kontraksi itu seperti apa?",
+        "Aku merasakan kontraksi, tapi belum waktunya melahirkan"
+      ],
+      "responses": [
+        "Kontraksi Braxton Hicks adalah hal yang normal, biasanya muncul di trimester kedua atau ketiga. Mereka tidak teratur, tidak terlalu menyakitkan, dan bisa hilang dengan istirahat atau perubahan posisi.",
+        "Kontraksi palsu biasanya tidak semakin kuat atau semakin sering, tidak menyebabkan pembukaan leher rahim, dan cenderung hilang dengan istirahat atau hidrasi.",
+        "Jika kamu ragu, cobalah berbaring atau minum air putih. Jika kontraksi mereda, kemungkinan besar itu Braxton Hicks. Jika kontraksi semakin intens dan teratur, segera konsultasikan dengan tenaga medis.",
+        "Tidak semua kontraksi menandakan persalinan. Kontraksi latihan membantu tubuhmu mempersiapkan kelahiran. Namun, penting untuk mengetahui kapan harus mencari pertolongan medis.",
+        "Perhatikan pola kontraksi. Kontraksi asli biasanya teratur, semakin kuat, dan tidak hilang meskipun kamu berpindah posisi. Jika kamu ragu, lebih baik periksa ke dokter untuk memastikan."
+      ]
+    },
+    {
+      "tag": "istirahat",
+      "patterns": [
+        "Berapa banyak istirahat yang aku butuhkan selama hamil?",
+        "Istirahat itu seperti apa?",
+        "Kapan waktu terbaik untuk tidur siang saat hamil?",
+        "Bagaimana cara mendapatkan tidur yang nyenyak saat hamil?",
+        "Bagaimana posisi tidur yang baik untuk ibu hamil?",
+        "Saya mau tanya tentang istirahat",
+        "Apakah tidur siang penting untuk ibu hamil?",
+        "Kenapa aku sering terbangun di malam hari saat hamil?",
+        "Apakah normal merasa cepat lelah selama kehamilan?",
+        "Aku kesulitan tidur, apa yang harus aku lakukan?",
+        "Apakah aman tidur telentang selama kehamilan?",
+        "Apa yang menyebabkan sulit tidur saat hamil?",
+        "Ceritakan tentang istirahat dong",
+        "Ada info soal istirahat?",
+        "Apa aja yang perlu diketahui tentang istirahat?"
+      ],
+      "responses": [
+        "Istirahat cukup sangat penting selama kehamilan karena tubuhmu bekerja keras untuk mendukung perkembangan bayi. Idealnya, tidur malam 7–9 jam dan tidur siang bila dibutuhkan.",
+        "Tidur siang dapat membantu mengatasi rasa lelah dan meningkatkan energi. Bahkan tidur singkat 20–30 menit di siang hari sudah cukup bermanfaat.",
+        "Sulit tidur saat hamil bisa disebabkan oleh perubahan hormon, nyeri punggung, atau sering buang air kecil. Cobalah mandi air hangat, membaca buku, atau melakukan teknik relaksasi sebelum tidur.",
+        "Tidur miring ke kiri dianggap posisi terbaik karena membantu sirkulasi darah ke janin dan ginjal ibu. Gunakan bantal di antara kaki atau di bawah perut untuk kenyamanan tambahan.",
+        "Jika kamu sering terbangun atau kesulitan tidur, hindari kafein di sore hari, kurangi penggunaan gawai sebelum tidur, dan ciptakan suasana kamar yang nyaman dan gelap."
+      ]
+    },
+    {
+      "tag": "persalinan",
+      "patterns": [
+        "Saya mau tanya tentang persalinan",
+        "Apakah persalinan itu menyakitkan?",
+        "Ada info soal persalinan?",
+        "Ceritakan tentang persalinan dong",
+        "Apa aja yang perlu diketahui tentang persalinan?",
+        "Apa saja tanda-tanda persalinan?",
+        "Persalinan itu seperti apa?",
+        "Bagaimana cara mengetahui kapan waktunya melahirkan?",
+        "Apa yang harus aku lakukan saat tanda-tanda persalinan muncul?"
+      ],
+      "responses": [
+        "Tanda-tanda persalinan meliputi kontraksi teratur, pecahnya air ketuban, dan keluarnya lendir bercampur darah. Segera hubungi dokter jika tanda-tanda ini muncul.",
+        "Persalinan bisa dimulai dengan kontraksi yang teratur dan semakin kuat. Pastikan kamu siap untuk pergi ke rumah sakit.",
+        "Ketika tanda-tanda persalinan muncul, tetap tenang dan persiapkan diri untuk pergi ke fasilitas kesehatan yang telah direncanakan.",
+        "Persalinan bisa menyakitkan, tetapi ada berbagai metode untuk mengelola rasa sakit, seperti pernapasan, relaksasi, dan obat penghilang rasa sakit."
+      ]
+    },
+    {
+      "tag": "suplemen",
+      "patterns": [
+        "Perlukah saya mengonsumsi vitamin tambahan?",
+        "Ceritakan tentang suplemen dong",
+        "Suplemen itu seperti apa?",
+        "Saya bingung, haruskah saya mengonsumsi suplemen?",
+        "Kalau saya tidak nyaman, apakah harus mengonsumsi suplemen?",
+        "Jenis suplemen apa yang harus saya konsumsi?",
+        "Apakah sekarang saat yang tepat untuk mengonsumsi suplemen?",
+        "Saya mau tanya tentang suplemen",
+        "Apakah saya perlu minum suplemen?",
+        "Kondisi saya begini, apakah saya harus mengonsumsi suplemen?",
+        "Apa aja yang perlu diketahui tentang suplemen?",
+        "Ada info soal suplemen?",
+        "Kalau hamil, apa perlu mengonsumsi suplemen?",
+        "Apa saya harus mengonsumsi suplemen?",
+        "Bagaimana saya tahu kapan harus mengonsumsi suplemen?"
+      ],
+      "responses": [
+        "Suplemen prenatal sering direkomendasikan untuk memastikan asupan nutrisi yang cukup selama kehamilan, termasuk asam folat, zat besi, dan kalsium.",
+        "Asam folat sangat penting untuk mencegah cacat tabung saraf pada bayi, sementara zat besi membantu mencegah anemia.",
+        "Konsultasikan dengan dokter sebelum memulai suplemen apapun untuk memastikan dosis dan jenis yang tepat.",
+        "Suplemen zat besi penting untuk mencegah anemia, tetapi pastikan untuk mengikuti petunjuk dokter."
+      ]
+    },
+    {
+      "tag": "aktivitas_seksual",
+      "patterns": [
+        "Apakah aktivitas seksual bisa membahayakan bayi?",
+        "Saya mau tanya tentang aktivitas",
+        "Berbahayakah berhubungan seks saat hamil besar?",
+        "Apakah aman berhubungan seks selama kehamilan?",
+        "Apa aja yang perlu diketahui tentang aktivitas?",
+        "Kapan harus menghindari hubungan seksual saat hamil?",
+        "Apakah kehamilan memengaruhi gairah seksual?",
+        "Ada info soal aktivitas?",
+        "Kapan sebaiknya aku berhenti berhubungan seks selama hamil?",
+        "Bolehkah berhubungan intim saat hamil muda?",
+        "Apakah hubungan seks bisa menyebabkan kontraksi?",
+        "Apa yang harus aku hindari saat berhubungan seks selama hamil?",
+        "Apakah normal merasa kurang nyaman saat berhubungan saat hamil?",
+        "Aktivitas itu seperti apa?",
+        "Ceritakan tentang aktivitas dong"
+      ],
+      "responses": [
+        "Berhubungan seks saat hamil umumnya aman jika kehamilanmu tidak berisiko tinggi. Bayi dilindungi oleh cairan ketuban dan otot rahim, jadi aktivitas seksual biasanya tidak membahayakannya.",
+        "Jika kamu merasa tidak nyaman atau mengalami keluhan seperti nyeri, pendarahan, atau kontraksi setelah berhubungan, sebaiknya hentikan dan konsultasikan dengan dokter.",
+        "Pada beberapa kondisi medis seperti plasenta previa, kehamilan kembar, atau risiko persalinan prematur, dokter mungkin menyarankan untuk menghindari aktivitas seksual.",
+        "Gairah seksual bisa berubah selama kehamilan karena perubahan hormon dan kondisi fisik. Komunikasi yang baik dengan pasangan sangat penting agar hubungan tetap sehat.",
+        "Posisi dan frekuensi hubungan dapat disesuaikan agar tetap nyaman. Pastikan selalu mengutamakan kenyamanan dan keamanan ibu serta janin."
+      ]
+    },
+    {
+      "tag": "imunisasi",
+      "patterns": [
+        "Kapan waktu terbaik untuk mendapatkan vaksin saat hamil?",
+        "Apa risiko jika tidak vaksin saat hamil?",
+        "Imunisasi itu seperti apa?",
+        "Apakah imunisasi flu diperlukan saat hamil?",
+        "Apa aja yang perlu diketahui tentang imunisasi?",
+        "Apakah aku perlu mendapatkan vaksin selama hamil?",
+        "Apakah bayi mendapat perlindungan dari vaksin yang aku terima saat hamil?",
+        "Saya mau tanya tentang imunisasi",
+        "Apa manfaat vaksin Tdap bagi ibu hamil?",
+        "Ada info soal imunisasi?",
+        "Bagaimana cara melindungi diri dari penyakit selama hamil?",
+        "Vaksin apa saja yang aman selama kehamilan?",
+        "Perlukah aku vaksin ulang jika sudah pernah sebelumnya?",
+        "Apakah semua jenis vaksin aman untuk ibu hamil?",
+        "Ceritakan tentang imunisasi dong"
+      ],
+      "responses": [
+        "Selama kehamilan, beberapa vaksin seperti vaksin flu dan Tdap sangat dianjurkan untuk melindungi kesehatan ibu dan memberikan perlindungan awal bagi bayi.",
+        "Vaksin flu aman dan penting untuk ibu hamil karena kehamilan meningkatkan risiko komplikasi dari flu. Vaksin ini juga membantu melindungi bayi di bulan-bulan pertama kehidupannya.",
+        "Vaksin Tdap direkomendasikan untuk melindungi bayi dari pertusis (batuk rejan), terutama bila diberikan pada trimester ketiga.",
+        "Tidak semua vaksin aman untuk ibu hamil, seperti vaksin hidup (misalnya MMR atau varicella). Konsultasikan dengan dokter untuk memastikan jenis dan waktu vaksinasi yang tepat.",
+        "Imunisasi saat hamil adalah bagian penting dari perawatan prenatal karena membantu mencegah penyakit serius bagi ibu dan memberikan antibodi pelindung kepada bayi yang belum bisa divaksinasi setelah lahir."
+      ]
+    },
+    {
+      "tag": "berat_badan",
+      "patterns": [
+        "Saya mau tanya tentang berat",
+        "Bagaimana cara mengontrol berat badan saat hamil?",
+        "Ceritakan tentang berat dong",
+        "Apa saja faktor yang memengaruhi kenaikan berat badan saat hamil?",
+        "Apakah aku kelebihan berat badan selama kehamilan?",
+        "Kok aku tidak naik berat badan ya padahal sudah hamil?",
+        "Ada info soal berat?",
+        "Berat badanku naik drastis, apa itu berbahaya?",
+        "Apakah kenaikan berat badan memengaruhi bayi?",
+        "Berapa banyak berat badan yang harus aku tambahkan selama kehamilan?",
+        "Aku khawatir tentang berat badan selama hamil",
+        "Berat itu seperti apa?",
+        "Berapa berat badan yang ideal untuk kehamilan?",
+        "Apa aja yang perlu diketahui tentang berat?",
+        "Apakah kenaikan berat badan ini normal?"
+      ],
+      "responses": [
+        "Kenaikan berat badan selama kehamilan memang wajar dan penting untuk mendukung pertumbuhan bayi. Umumnya berkisar antara 11–16 kg, tergantung kondisi masing-masing ibu.",
+        "Setiap ibu hamil mengalami kenaikan berat badan yang berbeda. Selama kenaikannya bertahap dan disertai pola makan sehat, itu biasanya tidak perlu dikhawatirkan.",
+        "Jika kamu merasa berat badan naik terlalu cepat atau terlalu lambat, sebaiknya konsultasikan dengan dokter untuk memastikannya tetap dalam batas aman.",
+        "Nutrisi seimbang, aktif secara fisik, dan cukup istirahat bisa membantu menjaga berat badan tetap sehat selama kehamilan.",
+        "Yang penting adalah memastikan bahwa pertumbuhan bayi normal dan ibu tetap sehat. Jangan terlalu fokus pada angka timbangan, tapi lebih pada kesehatan secara keseluruhan."
+      ]
+    },
+    {
+      "tag": "kaki_bengkak",
+      "patterns": [
+        "Kenapa kaki dan pergelangan kakiku membesar?",
+        "Ada info soal kaki?",
+        "Apa solusi untuk mengurangi kaki bengkak?",
+        "Ceritakan tentang kaki dong",
+        "Apa aja yang perlu diketahui tentang kaki?",
+        "Kaki itu seperti apa?",
+        "Bagaimana cara mengatasi pembengkakan di kaki?",
+        "Apakah kaki bengkak berbahaya saat kehamilan?",
+        "Kakiku sering bengkak, apakah ini normal?",
+        "Bolehkah memijat kaki yang bengkak saat hamil?",
+        "Kapan bengkak kaki harus dikhawatirkan?",
+        "Saya mau tanya tentang kaki",
+        "Bagaimana posisi tidur terbaik agar kaki tidak bengkak?",
+        "Apa yang menyebabkan kaki bengkak saat hamil?",
+        "Kakiku terasa berat karena bengkak"
+      ],
+      "responses": [
+        "Pembengkakan kaki saat hamil adalah hal yang umum, terutama di trimester kedua dan ketiga, akibat meningkatnya cairan dan tekanan pada pembuluh darah.",
+        "Untuk mengurangi bengkak, cobalah untuk sering mengangkat kaki, banyak minum air, dan hindari duduk atau berdiri terlalu lama.",
+        "Gunakan alas kaki yang nyaman dan hindari pakaian ketat di sekitar kaki dan pergelangan agar aliran darah tetap lancar.",
+        "Posisi tidur miring ke kiri bisa membantu sirkulasi dan mengurangi tekanan pada pembuluh darah utama, yang dapat mengurangi pembengkakan.",
+        "Jika pembengkakan muncul tiba-tiba, sangat parah, atau disertai gejala lain seperti sakit kepala atau gangguan penglihatan, segera periksakan diri ke dokter karena bisa menjadi tanda preeklamsia."
+      ]
+    },
+    {
+      "tag": "pergerakan_bayi",
+      "patterns": [
+        "Kapan aku harus khawatir tentang gerakan bayi?",
+        "Berapa sering bayi harus bergerak?",
+        "Bagaimana cara merasakan gerakan bayi dengan lebih baik?",
+        "Aku merasa bayiku tidak banyak bergerak hari ini"
+      ],
+      "responses": [
+        "Bayi cenderung memiliki pola gerakan yang bisa kamu perhatikan. Jika kamu merasa gerakan berkurang atau berbeda dari biasanya, segera hubungi dokter.",
+        "Setiap bayi memiliki pola gerakan yang berbeda, tetapi penting untuk memantau gerakan secara rutin, terutama setelah makan atau minum sesuatu yang manis.",
+        "Jika kamu khawatir tentang gerakan bayi, berbaringlah di sisi kiri dan perhatikan gerakan selama satu jam. Jika masih ada kekhawatiran, segera temui dokter."
+      ]
+    },
+    {
+      "tag": "trimester_pertama",
+      "patterns": [
+        "Gejala apa yang umum di trimester pertama?",
+        "Saya mau tanya tentang trimester",
+        "Ada info soal trimester?",
+        "Apa aja yang perlu diketahui tentang trimester?",
+        "Bolehkah berolahraga di trimester pertama?",
+        "Apakah normal merasa sangat lelah di trimester pertama?",
+        "Apa saja pantangan di trimester pertama?",
+        "Kenapa aku merasa mual terus di awal kehamilan?",
+        "Bagaimana cara menjaga kesehatan di trimester pertama?",
+        "Haruskah aku mengonsumsi suplemen di trimester pertama?",
+        "Trimester pertama itu berat sekali, normal nggak?",
+        "Apa yang terjadi pada janin di trimester pertama?",
+        "Apa yang harus aku harapkan di trimester pertama?",
+        "Trimester itu seperti apa?",
+        "Ceritakan tentang trimester dong"
+      ],
+      "responses": [
+        "Trimester pertama adalah masa adaptasi, di mana tubuh mengalami banyak perubahan hormonal. Gejala seperti mual, lelah, dan nyeri payudara adalah hal yang umum.",
+        "Penting untuk cukup beristirahat, makan bergizi, dan menghindari makanan yang berisiko seperti daging mentah atau susu tidak dipasteurisasi.",
+        "Jika kamu merasa sangat lelah, itu normal. Tubuhmu bekerja keras membentuk organ-organ penting janin.",
+        "Olahraga ringan seperti jalan kaki aman dilakukan, tetapi hindari aktivitas berat dan selalu konsultasikan ke dokter sebelum memulai.",
+        "Trimester pertama adalah waktu penting bagi perkembangan janin. Konsumsi asam folat dan lakukan kontrol kehamilan pertama sesegera mungkin."
+      ]
+    },
+    {
+      "tag": "trimester_kedua",
+      "patterns": [
+        "Apa yang biasanya terjadi di trimester kedua?",
+        "Apa aja yang perlu diketahui tentang trimester?",
+        "Saya mau tanya tentang trimester",
+        "Trimester itu seperti apa?",
+        "Ada info soal trimester?",
+        "Apa yang harus diperhatikan di trimester kedua?",
+        "Kapan mulai terasa gerakan bayi?",
+        "Ceritakan tentang trimester dong",
+        "Apakah boleh bepergian saat trimester kedua?",
+        "Bagaimana perkembangan janin di trimester kedua?",
+        "Kapan perut mulai terlihat membesar?",
+        "Apakah trimester kedua lebih nyaman?",
+        "Kenapa aku merasa lebih lapar di trimester kedua?",
+        "Bagaimana perasaan ibu hamil di trimester kedua?",
+        "Gejala apa yang umum di trimester kedua?"
+      ],
+      "responses": [
+        "Trimester kedua biasanya lebih nyaman, karena mual berkurang dan energi mulai kembali. Ini waktu yang baik untuk mulai aktif bergerak.",
+        "Perut mulai terlihat membesar dan kamu mungkin mulai merasakan gerakan janin sekitar minggu ke-18 hingga ke-22.",
+        "Tetap jaga pola makan sehat dan mulai gunakan pakaian yang nyaman untuk mendukung perubahan tubuh.",
+        "Periksa rutin tetap penting untuk memantau pertumbuhan janin dan deteksi dini jika ada komplikasi.",
+        "Jika ingin bepergian, trimester kedua adalah waktu yang paling aman, tapi pastikan untuk tetap menjaga kondisi fisik dan mengikuti saran dokter."
+      ]
+    },
+    {
+      "tag": "trimester_ketiga",
+      "patterns": [
+        "Saya mau tanya tentang trimester",
+        "Apa yang umum terjadi di trimester ketiga?",
+        "Ceritakan tentang trimester dong",
+        "Apakah wajar merasa gugup menjelang persalinan?",
+        "Apa aja yang perlu diketahui tentang trimester?",
+        "Apakah normal merasa lebih berat dan lelah di trimester ketiga?",
+        "Kapan aku harus mulai menyiapkan tas persalinan?",
+        "Bagaimana cara menghadapi trimester ketiga?",
+        "Ada info soal trimester?",
+        "Bagaimana cara tidur yang nyaman saat trimester ketiga?",
+        "Kapan bayi mulai turun ke panggul?",
+        "Bagaimana perkembangan janin di trimester ketiga?",
+        "Apa saja tanda-tanda persalinan yang harus aku perhatikan?",
+        "Apa yang harus aku siapkan di trimester ketiga?",
+        "Trimester itu seperti apa?"
+      ],
+      "responses": [
+        "Trimester ketiga bisa terasa berat secara fisik. Perut membesar, tidur bisa terganggu, dan kamu mungkin sering buang air kecil.",
+        "Siapkan tas persalinan, rencana kelahiran, dan pastikan kamu memahami tanda-tanda awal persalinan seperti kontraksi teratur atau pecah ketuban.",
+        "Tidur miring ke kiri bisa membantu peredaran darah dan mengurangi tekanan pada tubuh.",
+        "Jangan ragu untuk meminta bantuan dari pasangan atau keluarga. Dukungan sangat penting di tahap ini.",
+        "Periksa kehamilan lebih sering akan dimulai di trimester ketiga untuk memastikan bayi dan ibu dalam kondisi optimal menjelang persalinan."
+      ]
+    },
+    {
+      "tag": "persalinan",
+      "patterns": [
+        "Kapan aku harus pergi ke rumah sakit?",
+        "Apa yang harus aku siapkan untuk persalinan?",
+        "Bagaimana tanda-tanda persalinan?"
+      ],
+      "responses": [
+        "Tanda-tanda persalinan termasuk kontraksi yang teratur, pecahnya air ketuban, dan perubahan pada serviks. Segera hubungi dokter jika kamu mengalami tanda-tanda ini.",
+        "Persiapkan tas persalinan dan rencana kelahiran di trimester ketiga agar kamu siap kapan pun persalinan dimulai.",
+        "Jika kontraksi semakin kuat dan teratur, atau jika air ketuban pecah, segera pergi ke rumah sakit atau hubungi dokter."
+      ]
+    },
+    {
+      "tag": "postpartum",
+      "patterns": [
+        "Apa yang harus aku perhatikan selama masa postpartum?",
+        "Apa yang bisa aku lakukan untuk mempercepat pemulihan setelah melahirkan?",
+        "Bagaimana cara menghadapi perubahan tubuh setelah melahirkan?",
+        "Bagaimana cara menyusui dengan benar?",
+        "Ceritakan tentang postpartum dong",
+        "Apakah aku boleh berolahraga di masa postpartum?",
+        "Berapa lama masa nifas berlangsung?",
+        "Ada info soal postpartum?",
+        "Postpartum itu seperti apa?",
+        "Saya mau tanya tentang postpartum",
+        "Kapan tubuhku akan kembali seperti sebelum hamil?",
+        "Apa aja yang perlu diketahui tentang postpartum?",
+        "Apakah normal merasa sedih setelah melahirkan?",
+        "Apa yang harus aku harapkan setelah melahirkan?",
+        "Bagaimana cara merawat bayi baru lahir?"
+      ],
+      "responses": [
+        "Masa postpartum adalah periode penting untuk pemulihan fisik dan emosional. Tubuhmu butuh waktu untuk pulih, dan penting untuk tidak memaksakan diri.",
+        "Wajar jika kamu merasa kewalahan atau emosional setelah melahirkan. Baby blues sering terjadi dan biasanya akan membaik dalam beberapa minggu. Jika perasaan sedih berlanjut, bicarakan dengan tenaga medis.",
+        "Perhatikan tanda-tanda komplikasi seperti perdarahan berlebih, demam, atau nyeri yang tidak biasa, dan segera konsultasikan ke dokter bila muncul.",
+        "Menyusui bisa menantang di awal. Pastikan posisi pelekatan bayi benar dan minta bantuan konselor laktasi bila perlu.",
+        "Beristirahat cukup, makan makanan bergizi, dan minta bantuan dalam mengurus bayi adalah langkah penting untuk mendukung pemulihanmu."
+      ]
+    },
+    {
+      "tag": "gizi",
+      "patterns": [
+        "Ada info soal gizi?",
+        "Apakah aku boleh minum kopi selama hamil?",
+        "Apa makanan yang baik untuk ibu hamil?",
+        "Saya mau tanya tentang gizi",
+        "Ceritakan tentang gizi dong",
+        "Apa saja nutrisi penting selama kehamilan?",
+        "Apakah aku perlu minum susu hamil?",
+        "Haruskah aku makan lebih banyak dari biasanya?",
+        "Gizi itu seperti apa?",
+        "Apakah boleh makan makanan pedas saat hamil?",
+        "Vitamin apa yang perlu aku konsumsi saat hamil?",
+        "Bagaimana pola makan sehat selama kehamilan?",
+        "Bagaimana cara mengatasi nafsu makan berlebih saat hamil?",
+        "Makanan apa yang harus dihindari ibu hamil?",
+        "Apa aja yang perlu diketahui tentang gizi?"
+      ],
+      "responses": [
+        "Selama kehamilan, penting untuk mengonsumsi makanan bergizi seimbang yang kaya akan zat besi, asam folat, protein, kalsium, dan serat. Buah, sayur, daging tanpa lemak, dan biji-bijian sangat direkomendasikan.",
+        "Hindari makanan mentah atau setengah matang, seperti sushi, telur mentah, serta daging yang belum dimasak sempurna, karena bisa meningkatkan risiko infeksi.",
+        "Minum susu hamil bisa membantu mencukupi kebutuhan nutrisi seperti kalsium dan asam folat, tapi bukan kewajiban selama kamu sudah mendapatkannya dari makanan lain.",
+        "Vitamin seperti asam folat, zat besi, dan vitamin D sangat penting. Diskusikan dengan dokter atau bidan mengenai suplemen yang sesuai dengan kondisi tubuhmu.",
+        "Kafein boleh dikonsumsi dalam jumlah terbatas (biasanya <200 mg per hari), tapi sebaiknya dikurangi terutama di awal kehamilan. Konsultasikan jumlah yang aman dengan tenaga kesehatan."
+      ]
+    },
+    {
+      "tag": "pemeriksaan_kehamilan",
+      "patterns": [
+        "Apa aja yang perlu diketahui tentang pemeriksaan?",
+        "Apakah pemeriksaan kehamilan bisa dilakukan di puskesmas?",
+        "Seberapa sering aku perlu ke dokter saat hamil?",
+        "Ada info soal pemeriksaan?",
+        "Kapan aku harus melakukan pemeriksaan kehamilan?",
+        "Apa yang biasanya dilakukan saat pemeriksaan kehamilan?",
+        "Pemeriksaan itu seperti apa?",
+        "Kapan pertama kali harus cek ke dokter setelah tahu hamil?",
+        "Apakah pemeriksaan USG itu wajib?",
+        "Saya mau tanya tentang pemeriksaan",
+        "Ceritakan tentang pemeriksaan dong",
+        "Tes apa saja yang diperlukan selama kehamilan?",
+        "Apakah aku bisa melewatkan satu kali pemeriksaan kehamilan?",
+        "Apa saja yang diperiksa saat kontrol kehamilan?",
+        "Apa manfaat dari kontrol kehamilan rutin?"
+      ],
+      "responses": [
+        "Pemeriksaan kehamilan sangat penting untuk memastikan kesehatan ibu dan bayi. Biasanya dilakukan setiap 4 minggu pada awal kehamilan, lalu semakin sering seiring mendekati persalinan.",
+        "Tes yang umum dilakukan selama kehamilan meliputi tes darah, urin, USG, pemeriksaan tekanan darah, dan deteksi dini risiko seperti diabetes gestasional atau preeklamsia.",
+        "USG bukan hanya untuk melihat jenis kelamin, tapi juga penting untuk memantau tumbuh kembang janin dan mendeteksi kelainan sejak dini.",
+        "Kunjungan ke dokter atau bidan meliputi pengecekan tekanan darah, berat badan, tinggi fundus rahim, detak jantung bayi, dan edukasi kehamilan. Dokter juga akan menanyakan keluhan yang kamu rasakan.",
+        "Jika kamu tidak bisa hadir sekali kontrol, sebaiknya segera jadwalkan ulang dan jangan menjadikannya kebiasaan. Pemeriksaan rutin penting untuk mendeteksi dini potensi masalah kehamilan."
+      ]
+    },
+    {
+      "tag": "senam_hamil",
+      "patterns": [
+        "Ceritakan tentang senam dong",
+        "Adakah tips senam ringan untuk bumil?",
+        "Saya mau tanya tentang senam",
+        "Apa saja manfaat senam hamil?",
+        "Jenis olahraga apa yang cocok untuk ibu hamil?",
+        "Gerakan senam apa yang baik untuk ibu hamil?",
+        "Apa efek positif dari senam hamil bagi persalinan?",
+        "Kapan waktu yang tepat untuk mulai senam hamil?",
+        "Senam seperti apa yang aman saat hamil muda?",
+        "Ada info soal senam?",
+        "Senam hamil itu penting nggak sih?",
+        "Apa aja yang perlu diketahui tentang senam?",
+        "Saya boleh mulai senam dari trimester berapa?",
+        "Apakah senam hamil aman?",
+        "Senam itu seperti apa?"
+      ],
+      "responses": [
+        "Senam hamil umumnya aman dan sangat bermanfaat jika dilakukan dengan benar. Ini bisa membantu memperkuat otot, memperbaiki postur tubuh, serta mempersiapkan diri untuk persalinan. Mulailah senam sejak trimester pertama atau kedua, namun tetap konsultasikan dulu dengan dokter.",
+        "Senam hamil berguna untuk meningkatkan stamina, mengurangi ketidaknyamanan seperti nyeri punggung atau bengkak, dan mempermudah proses melahirkan. Disarankan untuk melakukan gerakan ringan seperti stretching, latihan pernapasan, dan yoga prenatal.",
+        "Selama kehamilan, senam ringan dapat mendukung kesehatan fisik dan mental ibu. Beberapa manfaatnya termasuk sirkulasi darah yang lebih baik, pengurangan stres, dan persiapan otot panggul untuk persalinan. Gerakan yang disarankan adalah yang lembut dan tidak membebani perut.",
+        "Jika dilakukan dengan pengawasan dan sesuai kondisi tubuh, senam hamil aman dan sangat bermanfaat. Waktu terbaik untuk memulainya biasanya di trimester kedua, dengan latihan seperti berjalan ringan, senam kegel, atau yoga khusus ibu hamil.",
+        "Manfaat senam hamil tidak hanya fisik, tapi juga emosional. Senam membantu tidur lebih nyenyak, mengurangi kecemasan, serta membuat tubuh lebih siap saat melahirkan. Pilih senam yang fokus pada pernapasan, kelenturan, dan penguatan otot panggul."
+      ]
+    },
+    {
+      "tag": "nyeri_punggung",
+      "patterns": [
+        "Nyeri itu seperti apa?",
+        "Saya mau tanya tentang nyeri",
+        "Kapan waktu terbaik untuk periksa nyeri punggung?",
+        "Apa saya harus periksa nyeri punggung?",
+        "Bagian punggung saya terasa nyeri",
+        "Saya merasa tidak enak, apa harus periksa nyeri punggung?",
+        "Punggung saya sakit",
+        "Apa aja yang perlu diketahui tentang nyeri?",
+        "Saya mengalami nyeri punggung",
+        "Ceritakan tentang nyeri dong",
+        "Ada info soal nyeri?",
+        "Kondisi saya begini, apakah saya harus periksa nyeri punggung?",
+        "Perlukah saya segera periksa nyeri punggung?",
+        "Bagaimana saya tahu kapan harus periksa nyeri punggung?",
+        "Kalau saya tidak nyaman, apakah harus periksa nyeri punggung?"
+      ],
+      "responses": [
+        "Nyeri punggung sering terjadi selama kehamilan karena perubahan hormon dan peningkatan berat badan yang memberi tekanan lebih pada punggung.",
+        "Mengatasi nyeri punggung bisa dilakukan dengan istirahat, peregangan, menggunakan bantal penyangga saat tidur, dan melakukan senam hamil.",
+        "Nyeri punggung adalah salah satu gejala umum selama kehamilan, terutama di trimester kedua dan ketiga. Jika nyeri semakin parah, konsultasikan dengan dokter.",
+        "Jika nyeri punggung disertai dengan gejala lain seperti demam, kesulitan berjalan, atau rasa sakit yang sangat hebat, segera temui dokter."
+      ]
+    },
+    {
+      "tag": "mual_muntah",
+      "patterns": [
+        "Aku merasa mual sepanjang hari, normal nggak?",
+        "Kenapa aku terus merasa mual setiap pagi?",
+        "Kapan mual-muntah selama kehamilan biasanya berakhir?",
+        "Ada info soal mual?",
+        "Mualku nggak kunjung reda, harus apa?",
+        "Mual itu seperti apa?",
+        "Apa penyebab mual saat hamil?",
+        "Apa aja yang perlu diketahui tentang mual?",
+        "Bagaimana cara mengatasi mual di pagi hari?",
+        "Makanan apa yang bisa membantu mengurangi mual?",
+        "Apakah normal muntah-muntah saat hamil?",
+        "Apa yang bisa aku lakukan agar tidak muntah saat hamil?",
+        "Saya mau tanya tentang mual",
+        "Ceritakan tentang mual dong",
+        "Apakah morning sickness berbahaya?"
+      ],
+      "responses": [
+        "Mual dan muntah saat hamil—terutama di pagi hari—umum terjadi di trimester pertama. Coba makan dalam porsi kecil tapi sering, dan hindari makanan berlemak atau berbau tajam.",
+        "Minum air jahe hangat atau makan biskuit kering sebelum bangun tidur bisa membantu meredakan mual. Istirahat yang cukup juga penting.",
+        "Morning sickness biasanya membaik setelah minggu ke-12 hingga 14 kehamilan. Namun, jika gejalanya sangat berat, konsultasikan dengan dokter karena bisa jadi tanda hiperemesis gravidarum.",
+        "Beberapa makanan yang bisa membantu meredakan mual antara lain apel, pisang, biskuit asin, dan makanan hambar lainnya. Hindari makanan berminyak dan pedas.",
+        "Jika mual dan muntah sangat mengganggu hingga tidak bisa makan atau minum, sebaiknya segera cari pertolongan medis untuk mencegah dehidrasi atau malnutrisi."
+      ]
+    },
+    {
+      "tag": "perawatan_kulit",
+      "patterns": [
+        "Apa bahan skincare yang harus dihindari selama hamil?",
+        "Bagaimana cara merawat kulit selama kehamilan?",
+        "Saya mau tanya tentang perawatan",
+        "Perawatan itu seperti apa?",
+        "Kulitku jadi lebih sensitif sejak hamil, normal tidak?",
+        "Kenapa kulit jadi kusam selama kehamilan?",
+        "Apa aja yang perlu diketahui tentang perawatan?",
+        "Apakah stretch mark bisa dicegah?",
+        "Produk perawatan kulit apa yang aman untuk ibu hamil?",
+        "Ada info soal perawatan?",
+        "Ceritakan tentang perawatan dong",
+        "Boleh pakai skincare seperti biasa saat hamil?",
+        "Bagaimana mengatasi kulit kering saat hamil?",
+        "Apa krim yang aman untuk mengatasi gatal-gatal saat hamil?",
+        "Apa penyebab munculnya jerawat saat hamil?"
+      ],
+      "responses": [
+        "Perubahan kulit saat hamil adalah hal yang umum, termasuk kulit kering, jerawat, atau stretch mark. Gunakan pelembap secara rutin, minum air cukup, dan pilih produk perawatan yang aman untuk ibu hamil.",
+        "Untuk menjaga kesehatan kulit selama kehamilan, hindari bahan aktif berbahaya seperti retinol dan hidrokuinon. Pilih produk yang berbahan alami dan aman bagi janin.",
+        "Stretch mark sulit dicegah sepenuhnya, namun menjaga kelembapan kulit sejak awal kehamilan dengan minyak atau krim khusus dapat membantu mengurangi keparahannya.",
+        "Jika kulit terasa kering, gatal, atau sensitif, gunakan sabun yang lembut, hindari mandi air panas, dan aplikasikan pelembap beberapa kali sehari.",
+        "Selalu baca label produk perawatan kulit dan konsultasikan dengan dokter jika ragu. Perawatan kulit yang tepat dapat membantu ibu tetap nyaman dan sehat selama kehamilan."
+      ]
+    },
+    {
+      "tag": "perawatan_gigi",
+      "patterns": [
+        "Saya mau tanya tentang perawatan",
+        "Apakah aman periksa gigi selama kehamilan?",
+        "Apa aja yang perlu diketahui tentang perawatan?",
+        "Bisakah aku melakukan perawatan gigi saat hamil?",
+        "Perawatan itu seperti apa?",
+        "Bolehkah cabut gigi saat sedang hamil?",
+        "Apa efek kehamilan terhadap kesehatan mulut?",
+        "Apakah sakit gigi berbahaya bagi kehamilan?",
+        "Ada info soal perawatan?",
+        "Bagaimana cara menjaga kesehatan gigi saat hamil?",
+        "Perawatan gigi seperti apa yang boleh dilakukan saat hamil?",
+        "Kenapa gigi jadi lebih sensitif sejak hamil?",
+        "Ceritakan tentang perawatan dong",
+        "Kapan waktu yang aman untuk ke dokter gigi saat hamil?",
+        "Gusi aku sering berdarah, itu normal saat hamil?"
+      ],
+      "responses": [
+        "Perawatan gigi selama kehamilan umumnya aman, terutama setelah trimester pertama. Beritahu dokter gigi bahwa kamu sedang hamil agar penanganan disesuaikan dengan kondisimu.",
+        "Perubahan hormon saat hamil dapat membuat gusi lebih sensitif dan mudah berdarah. Sikat gigi dengan lembut, gunakan benang gigi, dan hindari makanan tinggi gula.",
+        "Masalah gigi yang tidak ditangani bisa menimbulkan infeksi yang berisiko bagi ibu hamil. Segera konsultasikan dengan dokter gigi jika ada keluhan seperti nyeri atau pembengkakan.",
+        "Perawatan seperti pembersihan gigi dan tambal gigi aman dilakukan saat hamil. Namun prosedur besar seperti cabut gigi atau rontgen sebaiknya ditunda jika tidak darurat.",
+        "Menjaga kebersihan mulut sangat penting selama hamil. Pemeriksaan rutin bisa membantu mencegah masalah serius yang berdampak pada kesehatan ibu dan janin."
+      ]
+    },
+    {
+      "tag": "emosi_kehamilan",
+      "patterns": [
+        "Bagaimana cara mengelola stres selama kehamilan?",
+        "Kenapa aku sering merasa sedih tanpa alasan?",
+        "Ada info soal emosi?",
+        "Emosi itu seperti apa?",
+        "Apakah normal merasa cemas saat hamil?",
+        "Aku jadi mudah marah, apakah ini efek kehamilan?",
+        "Ceritakan tentang emosi dong",
+        "Aku jadi lebih sensitif sejak hamil, itu wajar?",
+        "Mengapa suasana hatiku sering berubah-ubah?",
+        "Apa aja yang perlu diketahui tentang emosi?",
+        "Bagaimana cara menghadapi emosi negatif saat hamil?",
+        "Saya mau tanya tentang emosi",
+        "Apa yang bisa aku lakukan untuk menjaga kesehatan mental selama kehamilan?",
+        "Apakah hormon kehamilan bisa mempengaruhi perasaan?",
+        "Bagaimana cara menenangkan diri saat merasa gelisah waktu hamil?"
+      ],
+      "responses": [
+        "Perubahan emosi seperti cemas, sedih, atau mudah marah sangat umum terjadi selama kehamilan karena perubahan hormon dan tantangan baru yang dihadapi. Yang penting adalah mengenali perasaanmu dan mencari dukungan saat dibutuhkan.",
+        "Kesehatan mental selama kehamilan sama pentingnya dengan kesehatan fisik. Luangkan waktu untuk istirahat, lakukan hal-hal yang kamu sukai, dan jangan ragu bercerita pada pasangan, keluarga, atau tenaga profesional jika kamu merasa kewalahan.",
+        "Perubahan suasana hati adalah hal yang wajar selama kehamilan. Cobalah teknik relaksasi seperti pernapasan dalam, meditasi, atau sekadar berjalan-jalan untuk membantu mengurangi stres dan kecemasan.",
+        "Jika kamu merasa emosimu tidak stabil atau sering merasa tertekan, jangan merasa bersalah. Banyak ibu hamil mengalaminya. Yang penting adalah terbuka dan mencari cara sehat untuk mengatasinya, termasuk berkonsultasi jika perlu.",
+        "Hormon kehamilan dapat memengaruhi perasaan secara signifikan. Dukungan emosional dari lingkungan sekitar dan aktivitas relaksasi bisa sangat membantu menjaga stabilitas suasana hati."
+      ]
+    },
+    {
+      "tag": "deteksi_keluhan",
+      "patterns": [
+        "Ada info soal deteksi?",
+        "Aku merasa sakit kepala",
+        "Kaki ku bengkak",
+        "Apa aja yang perlu diketahui tentang deteksi?",
+        "Perutku terasa kencang",
+        "Aku merasa lelah sekali",
+        "Saya mau tanya tentang deteksi",
+        "Aku sering merasa pusing",
+        "Deteksi itu seperti apa?",
+        "Ceritakan tentang deteksi dong"
+      ],
+      "responses": [
+        "Sakit kepala bisa terjadi karena perubahan hormon selama kehamilan. Pastikan kamu cukup beristirahat dan minum air. Jika sakit kepala terus berlanjut, segera hubungi dokter.",
+        "Bengkak di kaki biasa terjadi, terutama pada trimester ketiga. Cobalah untuk mengangkat kaki dan kurangi asupan garam. Jika bengkak berlebihan atau disertai gejala lain, konsultasikan dengan dokter.",
+        "Kelelahan umum terjadi selama kehamilan, terutama pada trimester pertama dan ketiga. Pastikan kamu mendapatkan istirahat yang cukup dan konsumsi makanan bergizi.",
+        "Perut yang terasa kencang bisa jadi kontraksi Braxton Hicks, yang biasa terjadi. Jika kontraksi terasa teratur atau menyakitkan, segera hubungi dokter.",
+        "Pusing bisa disebabkan oleh tekanan darah rendah atau anemia. Pastikan kamu makan makanan kaya zat besi dan tetap terhidrasi."
+      ]
+    },
+    {
+      "tag": "rekomendasi_nutrisi",
+      "patterns": [
+        "Saya mau tanya tentang rekomendasi",
+        "Ada info soal rekomendasi?",
+        "Bagaimana cara memenuhi kebutuhan gizi selama hamil?",
+        "Rekomendasi itu seperti apa?",
+        "Makanan apa yang baik untuk ibu hamil?",
+        "Apa aja yang perlu diketahui tentang rekomendasi?",
+        "Aku ingin tahu tentang diet sehat selama kehamilan",
+        "Apa saja makanan yang kaya zat besi?",
+        "Apakah ada makanan yang harus aku hindari?",
+        "Ceritakan tentang rekomendasi dong"
+      ],
+      "responses": [
+        "Pastikan untuk mengonsumsi makanan seimbang yang mencakup sayuran hijau, buah-buahan, protein, dan biji-bijian. Hindari makanan mentah dan batasi konsumsi kafein.",
+        "Untuk memenuhi kebutuhan gizi, sertakan makanan kaya folat, zat besi, kalsium, dan protein dalam diet harianmu. Konsultasikan dengan ahli gizi untuk rencana diet yang sesuai.",
+        "Hindari makanan mentah seperti sushi dan telur mentah, serta batasi asupan kafein. Alkohol dan makanan tinggi gula juga sebaiknya dihindari.",
+        "Diet sehat selama kehamilan mencakup porsi seimbang dari protein, karbohidrat, lemak sehat, serta vitamin dan mineral. Konsultasikan dengan dokter atau ahli gizi untuk rencana yang lebih detail.",
+        "Makanan yang kaya zat besi termasuk daging merah, sayuran hijau seperti bayam, dan kacang-kacangan. Suplemen zat besi mungkin diperlukan jika kamu mengalami anemia."
+      ]
+    },
+    {
+      "tag": "nutrisi_folat",
+      "patterns": [
+        "Apa pentingnya asam folat selama kehamilan?",
+        "Saya mau tanya tentang nutrisi",
+        "Apakah kekurangan folat berbahaya?",
+        "Nutrisi itu seperti apa?",
+        "Ada info soal nutrisi?",
+        "Ceritakan tentang nutrisi dong",
+        "Bagaimana cara memenuhi kebutuhan asam folat?",
+        "Apa manfaat folat untuk janin?",
+        "Mengapa folat penting untuk ibu hamil?",
+        "Apa aja yang perlu diketahui tentang nutrisi?",
+        "Kapan sebaiknya mulai mengonsumsi asam folat?",
+        "Bagaimana cara mendapatkan cukup folat dari makanan?",
+        "Makanan apa yang mengandung folat tinggi?",
+        "Berapa banyak asam folat yang harus dikonsumsi saat hamil?",
+        "Apakah aku perlu suplemen asam folat?"
+      ],
+      "responses": [
+        "Asam folat sangat penting untuk mencegah cacat tabung saraf pada bayi seperti spina bifida. Idealnya, konsumsi dimulai sebelum hamil dan dilanjutkan selama trimester pertama.",
+        "Disarankan untuk mengonsumsi 400–800 mikrogram asam folat per hari, tergantung pada kondisi kesehatanmu. Dokter bisa membantu menentukan jumlah yang sesuai.",
+        "Sumber alami asam folat termasuk sayuran hijau (bayam, brokoli), jeruk, kacang-kacangan, dan biji-bijian yang difortifikasi. Jika sulit mencukupi dari makanan, suplemen bisa digunakan.",
+        "Kekurangan folat dapat meningkatkan risiko gangguan pada perkembangan otak dan sumsum tulang belakang janin, jadi pastikan asupanmu cukup setiap hari.",
+        "Untuk memastikan kebutuhan folat terpenuhi, kombinasikan makanan kaya folat dengan suplemen jika direkomendasikan oleh dokter, terutama di awal kehamilan."
+      ]
+    },
+    {
+      "tag": "deteksi_keluhan",
+      "patterns": [
+        "Aku mengalami nyeri punggung",
+        "Aku sering merasa sesak napas",
+        "Aku mual setiap pagi",
+        "Tidurku terganggu",
+        "Gusi saya berdarah saat menyikat gigi"
+      ],
+      "responses": [
+        "Mual di pagi hari umum terjadi pada trimester pertama. Cobalah makan camilan kecil dan hindari makanan berlemak. Jika mual berlebihan, konsultasikan dengan dokter.",
+        "Nyeri punggung umum terjadi seiring perkembangan kehamilan. Cobalah latihan peregangan dan gunakan bantal untuk menopang punggung saat tidur.",
+        "Gangguan tidur bisa terjadi karena perubahan hormon dan kenyamanan. Pastikan lingkungan tidur nyaman dan cobalah teknik relaksasi sebelum tidur.",
+        "Perubahan hormon bisa menyebabkan gusi berdarah. Pastikan kamu menjaga kebersihan gigi dan gusi, serta gunakan sikat gigi yang lembut.",
+        "Sesak napas bisa disebabkan oleh rahim yang semakin membesar. Cobalah untuk bergerak perlahan dan jaga postur tubuh yang baik. Jika sesak napas semakin parah, segera hubungi dokter."
+      ]
+    },
+    {
+      "tag": "rekomendasi_nutrisi",
+      "patterns": [
+        "Bagaimana cara mengurangi mual?",
+        "Makanan apa yang baik untuk kesehatan tulang?",
+        "Makanan apa yang membantu meningkatkan hemoglobin?",
+        "Bagaimana cara menjaga energi selama kehamilan?",
+        "Apa yang harus saya makan untuk membantu tidur lebih baik?"
+      ],
+      "responses": [
+        "Untuk mengurangi mual, cobalah makan camilan kecil dan sering. Hindari makanan berlemak dan pedas, serta konsumsi jahe atau peppermint.",
+        "Kalsium sangat penting untuk kesehatan tulang. Pastikan kamu mengonsumsi susu, yogurt, keju, serta sayuran berdaun hijau seperti brokoli dan bayam.",
+        "Untuk menjaga energi, pastikan kamu makan secara teratur dan konsumsi karbohidrat kompleks, protein, dan lemak sehat. Minum cukup air juga sangat penting.",
+        "Untuk membantu tidur lebih baik, konsumsi makanan ringan yang kaya karbohidrat seperti roti gandum atau sereal sebelum tidur. Hindari makanan berat atau kafein di malam hari.",
+        "Untuk meningkatkan hemoglobin, konsumsi makanan kaya zat besi seperti daging merah, bayam, lentil, dan kacang-kacangan. Pastikan juga kamu mengonsumsi vitamin C untuk membantu penyerapan zat besi."
+      ]
+    },
+    {
+      "tag": "nutrisi_kalsium",
+      "patterns": [
+        "Makanan apa saja yang kaya kalsium?",
+        "Ceritakan tentang nutrisi dong",
+        "Ada info soal nutrisi?",
+        "Nutrisi itu seperti apa?",
+        "Saya mau tanya tentang nutrisi",
+        "Berapa banyak kalsium yang dibutuhkan ibu hamil?",
+        "Mengapa kalsium penting selama kehamilan?",
+        "Apa aja yang perlu diketahui tentang nutrisi?",
+        "Apakah saya perlu suplemen kalsium?",
+        "Bagaimana cara mendapatkan cukup kalsium?"
+      ],
+      "responses": [
+        "Kalsium penting untuk perkembangan tulang dan gigi bayi, serta menjaga kekuatan tulang ibu. Pastikan asupan kalsiummu cukup selama kehamilan.",
+        "Untuk mendapatkan cukup kalsium, konsumsi produk susu, sayuran hijau, dan kacang-kacangan. Suplemen mungkin diperlukan jika asupan dari makanan tidak cukup.",
+        "Ibu hamil membutuhkan sekitar 1.000 mg kalsium per hari. Diskusikan dengan dokter apakah kamu perlu suplemen tambahan.",
+        "Makanan yang kaya kalsium meliputi susu, keju, yogurt, brokoli, dan tahu. Pertimbangkan juga makanan yang diperkaya kalsium seperti sereal dan jus.",
+        "Jika asupan kalsium dari makanan tidak cukup, suplemen kalsium mungkin diperlukan. Bicarakan dengan dokter untuk mendapatkan rekomendasi yang sesuai."
+      ]
+    },
+    {
+      "tag": "nutrisi_protein",
+      "patterns": [
+        "Bagaimana cara mendapatkan cukup protein?",
+        "Apa sumber protein yang baik selain daging?",
+        "Ceritakan tentang nutrisi dong",
+        "Saya mau tanya tentang nutrisi",
+        "Berapa banyak protein yang dibutuhkan ibu hamil?",
+        "Makanan apa saja yang kaya protein?",
+        "Apa aja yang perlu diketahui tentang nutrisi?",
+        "Nutrisi itu seperti apa?",
+        "Mengapa protein penting selama kehamilan?",
+        "Ada info soal nutrisi?"
+      ],
+      "responses": [
+        "Protein penting untuk pertumbuhan dan perkembangan jaringan bayi, serta untuk kesehatan ibu. Pastikan asupan proteinmu cukup selama kehamilan.",
+        "Untuk mendapatkan cukup protein, konsumsi daging tanpa lemak, ayam, ikan, telur, kacang-kacangan, dan produk kedelai. Variasikan sumber protein dalam diet harianmu.",
+        "Makanan yang kaya protein meliputi daging, ikan, telur, kacang-kacangan, lentil, tahu, dan tempe. Pastikan juga mengonsumsi produk susu yang kaya protein.",
+        "Ibu hamil membutuhkan sekitar 75-100 gram protein per hari. Bicarakan dengan dokter untuk memastikan asupan proteinmu cukup.",
+        "Sumber protein yang baik selain daging termasuk telur, tahu, tempe, kacang-kacangan, dan produk susu seperti yogurt dan keju."
+      ]
+    },
+    {
+      "tag": "nutrisi_vitamin_d",
+      "patterns": [
+        "Apakah saya perlu suplemen vitamin D?",
+        "Mengapa vitamin D penting selama kehamilan?",
+        "Apa manfaat vitamin D selama kehamilan?",
+        "Ada info soal nutrisi?",
+        "Makanan apa yang mengandung vitamin D?",
+        "Ceritakan tentang nutrisi dong",
+        "Bagaimana cara mendapatkan cukup vitamin D?",
+        "Nutrisi itu seperti apa?",
+        "Apa aja yang perlu diketahui tentang nutrisi?",
+        "Saya mau tanya tentang nutrisi"
+      ],
+      "responses": [
+        "Vitamin D penting untuk kesehatan tulang dan gigi, serta membantu penyerapan kalsium. Pastikan asupan vitamin D cukup selama kehamilan.",
+        "Vitamin D bisa didapatkan dari sinar matahari, makanan seperti ikan berlemak dan telur, serta suplemen jika diperlukan. Pastikan kamu mendapatkan cukup paparan sinar matahari setiap hari.",
+        "Makanan yang mengandung vitamin D termasuk ikan berlemak seperti salmon, telur, dan makanan yang diperkaya seperti susu dan sereal.",
+        "Jika kamu tidak mendapatkan cukup vitamin D dari makanan atau sinar matahari, suplemen mungkin diperlukan. Konsultasikan dengan dokter sebelum mengambil suplemen.",
+        "Vitamin D membantu dalam pembentukan tulang dan gigi bayi, serta menjaga kesehatan tulang ibu. Asupan yang cukup penting selama kehamilan."
+      ]
+    },
+    {
+      "tag": "deteksi_keluhan",
+      "patterns": [
+        "Aku merasa pusing seharian",
+        "Kaki saya bengkak, kenapa ya?",
+        "Aku merasa gatal di seluruh tubuh",
+        "Saya sering kelelahan",
+        "Ada rasa terbakar di dada saya"
+      ],
+      "responses": [
+        "Pusing bisa disebabkan oleh tekanan darah rendah atau dehidrasi. Pastikan kamu cukup minum air dan istirahat. Jika pusing berlanjut, konsultasikan dengan dokter.",
+        "Pembengkakan pada kaki biasa terjadi saat kehamilan karena peningkatan cairan. Cobalah angkat kaki ketika duduk dan hindari berdiri terlalu lama.",
+        "Kelelahan umum terjadi selama kehamilan. Pastikan kamu mendapatkan cukup istirahat dan makan makanan bergizi untuk menjaga energi.",
+        "Rasa terbakar di dada bisa jadi tanda heartburn, yang umum terjadi selama kehamilan. Hindari makanan pedas dan berlemak, serta makan dalam porsi kecil tapi sering.",
+        "Gatal bisa disebabkan oleh perubahan hormon. Pastikan kulitmu terhidrasi dan gunakan lotion yang aman untuk ibu hamil. Jika gatal tidak hilang, konsultasikan dengan dokter."
+      ]
+    },
+    {
+      "tag": "rekomendasi_nutrisi",
+      "patterns": [
+        "Apa yang sebaiknya saya makan untuk mengurangi kram kaki?",
+        "Makanan apa yang baik untuk perkembangan otak bayi?",
+        "Makanan apa yang bisa menambah energi?",
+        "Bagaimana cara mencegah sembelit?",
+        "Bagaimana cara mengatasi perut kembung?"
+      ],
+      "responses": [
+        "Untuk menambah energi, pastikan kamu makan makanan yang kaya karbohidrat kompleks seperti roti gandum, serta protein dari kacang-kacangan dan daging tanpa lemak.",
+        "Untuk mencegah sembelit, perbanyak konsumsi serat seperti buah-buahan, sayuran, dan biji-bijian. Pastikan juga kamu minum cukup air setiap hari.",
+        "Untuk mengurangi kram kaki, pastikan asupan kalsium dan magnesiummu cukup. Susu, kacang-kacangan, dan sayuran hijau bisa membantu.",
+        "Omega-3 sangat penting untuk perkembangan otak bayi. Ikan berlemak seperti salmon, serta kacang kenari dan biji chia, adalah sumber yang baik.",
+        "Untuk mengatasi perut kembung, hindari makanan yang memicu gas seperti kacang-kacangan dan soda. Makan dalam porsi kecil dan sering bisa membantu."
+      ]
+    },
+    {
+      "tag": "nutrisi_kalsium",
+      "patterns": [
+        "Bagaimana cara menjaga kesehatan gigi selama kehamilan?",
+        "Makanan apa yang harus saya makan untuk tulang yang kuat?",
+        "Apa yang terjadi jika kekurangan kalsium selama kehamilan?",
+        "Apakah produk susu penting selama kehamilan?",
+        "Bagaimana cara meningkatkan asupan kalsium?"
+      ],
+      "responses": [
+        "Untuk meningkatkan asupan kalsium, konsumsi lebih banyak produk susu seperti susu, yogurt, dan keju, serta sayuran berdaun hijau.",
+        "Kekurangan kalsium selama kehamilan bisa mempengaruhi perkembangan tulang dan gigi bayi. Pastikan asupan kalsiummu cukup melalui diet dan suplemen jika diperlukan.",
+        "Untuk tulang yang kuat, pastikan kamu mengonsumsi makanan kaya kalsium dan vitamin D, seperti susu, yogurt, keju, dan ikan berlemak.",
+        "Untuk menjaga kesehatan gigi, pastikan kamu mendapatkan cukup kalsium dan menjaga kebersihan gigi dengan menyikat gigi secara teratur menggunakan sikat gigi yang lembut.",
+        "Produk susu adalah sumber utama kalsium dan penting selama kehamilan. Jika kamu tidak bisa mengonsumsi susu, pertimbangkan sumber lain seperti tahu, sayuran hijau, atau suplemen kalsium."
+      ]
+    },
+    {
+      "tag": "nutrisi_protein",
+      "patterns": [
+        "Apakah daging harus dikonsumsi setiap hari?",
+        "Bagaimana cara mendapatkan lebih banyak protein?",
+        "Apakah saya perlu suplemen protein?",
+        "Apa manfaat protein untuk bayi?",
+        "Bagaimana cara menambah asupan protein jika saya vegetarian?"
+      ],
+      "responses": [
+        "Untuk mendapatkan lebih banyak protein, tambahkan daging tanpa lemak, ikan, telur, kacang-kacangan, dan produk susu ke dalam diet harianmu.",
+        "Daging tidak harus dikonsumsi setiap hari, tapi pastikan kamu mendapatkan protein dari sumber lain seperti ikan, telur, dan kacang-kacangan.",
+        "Protein sangat penting untuk pertumbuhan jaringan bayi, termasuk otak dan otot. Pastikan asupan proteinmu cukup selama kehamilan.",
+        "Jika kamu vegetarian, pastikan untuk mengonsumsi kacang-kacangan, biji-bijian, tahu, tempe, dan produk kedelai lainnya untuk memenuhi kebutuhan protein.",
+        "Suplemen protein mungkin diperlukan jika kamu tidak bisa memenuhi kebutuhan protein melalui diet. Diskusikan dengan dokter sebelum mengambil suplemen."
+      ]
+    },
+    {
+      "tag": "nutrisi_vitamin_d",
+      "patterns": [
+        "Bagaimana cara mendapatkan vitamin D selain dari sinar matahari?",
+        "Bagaimana cara memastikan asupan vitamin D cukup?",
+        "Apakah vitamin D penting untuk bayi?",
+        "Makanan apa yang diperkaya vitamin D?",
+        "Apa yang terjadi jika kekurangan vitamin D selama kehamilan?"
+      ],
+      "responses": [
+        "Selain dari sinar matahari, kamu bisa mendapatkan vitamin D dari makanan seperti ikan berlemak, telur, dan makanan yang diperkaya vitamin D seperti susu dan sereal.",
+        "Kekurangan vitamin D selama kehamilan bisa menyebabkan masalah pada perkembangan tulang bayi. Pastikan asupan vitamin D cukup melalui diet atau suplemen jika diperlukan.",
+        "Untuk memastikan asupan vitamin D cukup, konsumsi makanan yang kaya vitamin D dan pertimbangkan suplemen jika diperlukan, terutama jika paparan sinar matahari terbatas.",
+        "Makanan yang diperkaya vitamin D termasuk susu, sereal, dan jus. Pastikan kamu memasukkannya ke dalam diet harianmu.",
+        "Vitamin D sangat penting untuk perkembangan tulang bayi dan untuk menjaga kesehatan tulang ibu. Pastikan kamu mendapatkan asupan yang cukup selama kehamilan."
+      ]
+    },
+    {
+      "tag": "keluhan_mual_muntah",
+      "patterns": [
+        "Kenapa mualnya makin parah tiap hari?",
+        "Apa perbedaan morning sickness biasa dan yang berbahaya?",
+        "Gimana cara ngurangin rasa mual saat hamil muda?",
+        "Setiap bangun tidur aku langsung mual",
+        "Muntah bikin aku nggak bisa makan, apa solusinya?",
+        "Aku sering merasa mual di pagi hari",
+        "Mual terus menerus saat hamil itu normal?",
+        "Muntah sudah berlangsung berhari-hari, apa yang harus aku lakukan?",
+        "Saya mau tanya tentang keluhan",
+        "Kenapa aku sering muntah?",
+        "Ada info soal keluhan?",
+        "Ceritakan tentang keluhan dong",
+        "Keluhan itu seperti apa?",
+        "Apa aja yang perlu diketahui tentang keluhan?",
+        "Apa yang bisa aku lakukan untuk mengatasi morning sickness?"
+      ],
+      "responses": [
+        "Mual dan muntah saat hamil, terutama di trimester pertama, adalah kondisi umum yang dikenal sebagai morning sickness. Biasanya akan membaik setelah minggu ke-12–14.",
+        "Untuk mengurangi mual, cobalah makan dalam porsi kecil namun sering, hindari makanan atau bau yang memicu mual, dan istirahat yang cukup.",
+        "Jika mual dan muntah sangat parah hingga sulit makan atau minum, kamu mungkin mengalami hiperemesis gravidarum. Segera konsultasikan ke dokter untuk mendapat penanganan.",
+        "Morning sickness dapat dikurangi dengan menghindari perut kosong, mengonsumsi camilan kering seperti biskuit sebelum bangun tidur, dan minum cairan sedikit-sedikit namun sering.",
+        "Meskipun mual itu umum, jangan ragu mencari bantuan medis jika kamu merasa tubuh lemas, dehidrasi, atau berat badan turun karena muntah yang berkepanjangan."
+      ]
+    },
+    {
+      "tag": "keluhan_punggung",
+      "patterns": [
+        "Kenapa punggung bagian bawahku nyeri terus sejak hamil?",
+        "Apa aja yang perlu diketahui tentang keluhan?",
+        "Bagaimana cara mengatasi sakit punggung saat hamil?",
+        "Ada info soal keluhan?",
+        "Sakit punggung ini bikin susah bergerak",
+        "Punggungku terasa pegal setiap hari",
+        "Kenapa punggung saya sakit sekali?",
+        "Aku merasa nyeri di tulang belakang, apa itu wajar?",
+        "Saya mau tanya tentang keluhan",
+        "Ceritakan tentang keluhan dong",
+        "Keluhan itu seperti apa?",
+        "Apa penyebab sakit punggung saat hamil?",
+        "Ada yang bisa dilakukan untuk meringankan sakit punggung?",
+        "Apakah normal merasa nyeri di punggung bawah selama kehamilan?",
+        "Punggungku sakit terus"
+      ],
+      "responses": [
+        "Sakit punggung sering terjadi selama kehamilan karena perubahan postur dan bertambahnya berat badan. Cobalah untuk menjaga postur tubuh dan hindari mengangkat beban berat.",
+        "Sakit punggung bisa disebabkan oleh pertumbuhan rahim yang memberi tekanan pada tulang belakang. Latihan ringan dan kompres panas bisa membantu meredakan nyeri.",
+        "Untuk mengatasi sakit punggung, cobalah latihan seperti prenatal yoga, atau gunakan bantal pendukung saat tidur. Hindari berdiri atau duduk terlalu lama.",
+        "Nyeri di punggung bawah adalah keluhan umum selama kehamilan, terutama saat janin semakin besar. Jaga agar postur tetap baik dan istirahat yang cukup.",
+        "Kompres hangat dan pijatan lembut bisa membantu meringankan sakit punggung. Jika nyeri sangat mengganggu, konsultasikan dengan dokter."
+      ]
+    },
+    {
+      "tag": "keluhan_kram_kaki",
+      "patterns": [
+        "Keluhan itu seperti apa?",
+        "Setiap malam kakiku kram, kenapa ya?",
+        "Betisku suka kejang tiba-tiba saat tidur",
+        "Ceritakan tentang keluhan dong",
+        "Apa suplemen yang bagus untuk cegah kram kaki?",
+        "Apa aja yang perlu diketahui tentang keluhan?",
+        "Kram di kaki bikin aku kaget pas tidur",
+        "Kenapa kakiku sering kram?",
+        "Kram kaki ini sangat mengganggu tidurku, apa yang bisa dilakukan?",
+        "Saya mau tanya tentang keluhan",
+        "Ada info soal keluhan?",
+        "Apa yang bisa mencegah kram kaki saat hamil?",
+        "Kram kaki selama kehamilan itu normal?",
+        "Bagaimana cara mengatasi kram di betis?",
+        "Apa yang menyebabkan kram kaki di malam hari?"
+      ],
+      "responses": [
+        "Kram kaki sering terjadi pada malam hari selama kehamilan, biasanya karena kurangnya kalsium atau magnesium. Cobalah untuk mengonsumsi lebih banyak produk susu dan sayuran hijau.",
+        "Kram kaki bisa disebabkan oleh peningkatan berat badan dan tekanan pada pembuluh darah. Pijat lembut dan peregangan bisa membantu mengurangi kram.",
+        "Kram kaki adalah keluhan umum selama kehamilan. Pastikan kamu cukup minum air dan lakukan peregangan sebelum tidur untuk mencegahnya.",
+        "Untuk mengatasi kram di betis, coba lakukan peregangan kaki sebelum tidur dan pijat area yang kram dengan lembut.",
+        "Jika kram kaki mengganggu tidur, pertimbangkan untuk minum air lebih banyak dan konsumsi suplemen magnesium. Diskusikan dengan dokter jika kram sangat parah."
+      ]
+    },
+    {
+      "tag": "keluhan_insomnia",
+      "patterns": [
+        "Apakah insomnia ini normal saat kehamilan?",
+        "Apa aja yang perlu diketahui tentang keluhan?",
+        "Bagaimana cara mengatasi insomnia selama kehamilan?",
+        "Aku susah tidur sejak hamil",
+        "Tidurku tidak pernah cukup, apa ada cara untuk memperbaikinya?",
+        "Aku bangun berkali-kali tengah malam, kenapa ya?",
+        "Tidurku jadi tidak teratur sejak hamil",
+        "Ceritakan tentang keluhan dong",
+        "Keluhan itu seperti apa?",
+        "Aku tidak bisa tidur nyenyak, apa yang harus dilakukan?",
+        "Kenapa badan lelah tapi tetap tidak bisa tidur?",
+        "Setiap malam aku gelisah dan susah tidur",
+        "Ada info soal keluhan?",
+        "Kenapa aku sering terbangun di malam hari?",
+        "Saya mau tanya tentang keluhan"
+      ],
+      "responses": [
+        "Susah tidur atau insomnia sering dialami selama kehamilan karena perubahan hormon dan ketidaknyamanan fisik. Cobalah untuk tidur di posisi yang nyaman dan atur waktu tidur yang teratur.",
+        "Sering terbangun di malam hari bisa disebabkan oleh posisi tidur yang tidak nyaman atau sering buang air kecil. Pastikan kamar tidur nyaman dan suhu ruangan mendukung tidur nyenyak.",
+        "Untuk mengatasi insomnia, coba rutinitas relaksasi sebelum tidur seperti mandi air hangat atau minum teh chamomile. Pastikan juga kamar tidur tenang dan gelap.",
+        "Jika tidak bisa tidur nyenyak, pastikan posisi tidurmu nyaman dan hindari makanan atau minuman yang bisa mengganggu tidur seperti kafein.",
+        "Jika tidur tidak pernah cukup, cobalah untuk tidur siang sebentar atau lakukan teknik relaksasi seperti pernapasan dalam. Diskusikan dengan dokter jika insomnia berlanjut."
+      ]
+    },
+    {
+      "tag": "keluhan_perut_kembung",
+      "patterns": [
+        "Ceritakan tentang keluhan dong",
+        "Bagaimana cara mengatasi perut kembung?",
+        "Kenapa aku selalu merasa penuh setelah makan?",
+        "Perutku seperti terisi angin terus",
+        "Keluhan itu seperti apa?",
+        "Perutku sering terasa kembung",
+        "Apa makanan yang bikin perut kembung saat hamil?",
+        "Perut kembung ini sangat tidak nyaman, ada solusi?",
+        "Apakah gas di perut wajar saat hamil?",
+        "Kenapa perut terasa begah terus sejak hamil?",
+        "Apa yang menyebabkan perut kembung selama kehamilan?",
+        "Aku sering sendawa dan perut terasa penuh",
+        "Apa aja yang perlu diketahui tentang keluhan?",
+        "Saya mau tanya tentang keluhan",
+        "Ada info soal keluhan?"
+      ],
+      "responses": [
+        "Perut kembung selama kehamilan bisa disebabkan oleh perubahan hormon yang memperlambat pencernaan. Cobalah makan dalam porsi kecil tapi sering dan hindari makanan pemicu gas.",
+        "Rasa penuh setelah makan bisa disebabkan oleh pencernaan yang lambat selama kehamilan. Cobalah berjalan-jalan sebentar setelah makan untuk membantu pencernaan.",
+        "Perut kembung umum terjadi selama kehamilan karena hormon progesteron yang memperlambat kerja usus. Hindari makanan yang memicu gas seperti kacang-kacangan dan minuman bersoda.",
+        "Untuk mengatasi perut kembung, hindari makanan yang dapat menghasilkan gas dan makan perlahan. Minum banyak air juga bisa membantu melancarkan pencernaan.",
+        "Jika perut kembung sangat tidak nyaman, cobalah makan dalam porsi kecil dan sering, serta hindari makanan pedas dan berlemak. Pijat lembut perut juga bisa membantu."
+      ]
+    },
+    {
+      "tag": "pemeriksaan_kesehatan_gratis",
+      "patterns": [
+        "Jenis pemeriksaan apa saja yang dilakukan secara gratis?",
+        "Apakah harus pakai aplikasi SATUSEHAT Mobile?",
+        "Apa tindak lanjut setelah saya ikut pemeriksaan?",
+        "Apa saja yang harus saya persiapkan untuk pemeriksaan kesehatan gratis?",
+        "Siapa saja yang bisa ikut program pemeriksaan kesehatan gratis? ",
+        "Ceritakan tentang pemeriksaan dong",
+        "Pemeriksaan itu seperti apa?",
+        "Kapan saya bisa mengikuti pemeriksaan kesehatan gratis?",
+        "Saya mau tanya tentang pemeriksaan",
+        "Apa aja yang perlu diketahui tentang pemeriksaan?",
+        "Bagaimana cara ikut cek kesehatan gratis?",
+        "Ada info soal pemeriksaan?",
+        "Saya lahir kemarin, bisa ikut cek kesehatan gratis?",
+        "Apa itu pemeriksaan kesehatan gratis dari pemerintah? "
+      ],
+      "responses": [
+        "Pemeriksaan Kesehatan Gratis adalah program pemerintah untuk mendeteksi dini risiko penyakit dan mendorong hidup sehat bagi seluruh warga Indonesia.",
+        "Program ini terbuka untuk semua WNI dari bayi baru lahir (usia 2 hari), anak-anak, dewasa hingga lansia.",
+        "Jenis pemeriksaan mencakup pemeriksaan bayi baru lahir, tumbuh kembang balita, tekanan darah, gula darah, fungsi ginjal, indera, gigi, jiwa, dan lainnya.",
+        "Pemeriksaan bisa dilakukan mulai minggu pertama atau kedua bulan Februari, dan berlaku 30 hari setelah hari ulang tahun Anda.",
+        "Syarat utamanya adalah memiliki KTP atau identitas kependudukan dan mengunduh aplikasi SATUSEHAT Mobile.",
+        "Cara ikut: Unduh aplikasi SATUSEHAT Mobile, pilih tanggal, dan datang ke Puskesmas. Anda juga akan diberi notifikasi lewat WA resmi Kemenkes RI.",
+        "Ya, aplikasi SATUSEHAT Mobile digunakan untuk memilih tanggal, melihat hasil pemeriksaan, dan mendapatkan rapor kesehatan.",
+        "Ya, bayi baru lahir bisa diperiksa pada hari kedua setelah kelahiran, sebagai bagian dari skrining kesehatan awal.",
+        "Setelah pemeriksaan, hasil akan dikirim ke aplikasi SATUSEHAT Mobile atau WhatsApp. Jika diperlukan, akan ada rujukan ke faskes sesuai BPJS Anda."
+      ]
+    },
+    {
+      "tag": "stunting_pengertian",
+      "patterns": [
+        "Apa yang dimaksud dengan stunting?",
+        "Bisa jelaskan soal stunting?",
+        "Stunting maksudnya gimana?",
+        "Pengertian stunting itu apa?",
+        "Jelaskan tentang stunting",
+        "Saya ingin tahu tentang stunting",
+        "Bisa dijelaskan stunting itu bagaimana?",
+        "Jelaskan dong stunting itu apa",
+        "Stunting itu apa sih?",
+        "Apa itu stunting?",
+        "Apa arti stunting?",
+        "Apa sih arti stunting itu?",
+        "Tolong jelaskan apa itu stunting",
+        "Definisi stunting itu apa?",
+        "Stunting itu apa ya?"
+      ],
+      "responses": [
+        "Stunting adalah kondisi gagal tumbuh pada anak akibat kekurangan gizi kronis dalam waktu lama, terutama pada 1.000 hari pertama kehidupan.",
+        "Stunting merupakan gangguan pertumbuhan anak yang menyebabkan tinggi badannya lebih pendek dari anak seusianya akibat kekurangan gizi.",
+        "Stunting adalah pertumbuhan tubuh yang terhambat karena gizi buruk, infeksi berulang, dan kurangnya perawatan selama masa awal kehidupan anak.",
+        "Stunting menunjukkan bahwa seorang anak mengalami hambatan pertumbuhan fisik dan juga dapat memengaruhi perkembangan otaknya."
+      ]
+    },
+    {
+      "tag": "stunting_penyebab",
+      "patterns": [
+        "Apa penyebab stunting pada anak?",
+        "Kok bisa anak jadi stunting?",
+        "Apa yang menyebabkan stunting?",
+        "Apakah kurang gizi bisa bikin stunting?",
+        "Kenapa anak tumbuh pendek?",
+        "Apa faktor risiko stunting?",
+        "Kenapa anak bisa stunting?",
+        "Mengapa bisa terjadi stunting?",
+        "Mengapa stunting bisa terjadi?",
+        "Apa yang menyebabkan anak mengalami stunting?",
+        "Faktor penyebab stunting itu apa saja?",
+        "Kenapa bisa terjadi stunting?",
+        "Stunting disebabkan oleh apa?",
+        "Faktor risiko dari stunting apa aja?",
+        "Adakah penyebab lain dari stunting selain gizi buruk?"
+      ],
+      "responses": [
+        "Stunting bisa disebabkan oleh kekurangan gizi kronis sejak masa kehamilan hingga usia dua tahun.",
+        "Penyebab stunting antara lain adalah pola makan yang tidak seimbang, infeksi berulang, dan sanitasi yang buruk.",
+        "Faktor penyebab utama stunting adalah kurangnya asupan gizi, kurang perawatan selama kehamilan, dan infeksi seperti diare yang sering terjadi.",
+        "Stunting juga bisa dipengaruhi oleh kondisi ibu hamil yang kekurangan gizi dan tidak mendapatkan layanan kesehatan yang memadai."
+      ]
+    },
+    {
+      "tag": "stunting_solusi",
+      "patterns": [
+        "Apa yang bisa dilakukan agar tidak stunting?",
+        "Bagaimana cara mencegah stunting?",
+        "Bagaimana cara mengatasi stunting?",
+        "Apa yang bisa dilakukan agar anak tidak stunting?",
+        "Tips mencegah stunting dong",
+        "Apa upaya mencegah stunting sejak dini?",
+        "Bagaimana cara menghindari stunting pada anak?",
+        "Langkah mencegah stunting gimana ya?",
+        "Langkah-langkah untuk mencegah stunting apa saja?",
+        "Bagaimana mencegah stunting?",
+        "Solusi untuk stunting itu apa?",
+        "Anak saya stunting, apa yang harus saya lakukan?",
+        "Apa solusi untuk mencegah stunting?",
+        "Apa upaya terbaik mengatasi stunting?",
+        "Apakah stunting bisa diatasi?"
+      ],
+      "responses": [
+        "Stunting bisa dicegah dengan memberikan gizi yang cukup sejak masa kehamilan, memberikan ASI eksklusif selama 6 bulan, dan MPASI bergizi seimbang.",
+        "Pastikan ibu hamil mendapat asupan makanan bergizi dan pemeriksaan rutin, serta bayi diberi ASI eksklusif dan imunisasi lengkap.",
+        "Menjaga kebersihan lingkungan, akses air bersih, serta pemantauan pertumbuhan anak secara rutin juga penting untuk mencegah stunting.",
+        "Jika anak sudah menunjukkan tanda-tanda stunting, segera konsultasikan ke tenaga kesehatan untuk mendapatkan intervensi gizi dan perawatan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "ibu_hamil_kek",
+      "patterns": [
+        "Apa itu KEK pada ibu hamil?",
+        "KEK itu apa ya?",
+        "Apa aja yang perlu diketahui tentang ibu?",
+        "Jelaskan tentang KEK saat hamil",
+        "Tanda KEK pada ibu hamil?",
+        "Apa dampak KEK pada kehamilan?",
+        "Ada info soal ibu?",
+        "Bagaimana mengenali ibu hamil mengalami KEK?",
+        "Ibu itu seperti apa?",
+        "Kenapa ibu hamil bisa mengalami KEK?",
+        "Apa yang dimaksud dengan Kekurangan Energi Kronis?",
+        "Ciri-ciri ibu hamil KEK apa saja?",
+        "Apa bahaya KEK bagi ibu hamil?",
+        "Ceritakan tentang ibu dong",
+        "Saya mau tanya tentang ibu"
+      ],
+      "responses": [
+        "Kekurangan Energi Kronis (KEK) pada ibu hamil adalah kondisi di mana ibu mengalami kekurangan asupan energi dan protein secara terus-menerus, ditandai dengan Lingkar Lengan Atas (LILA) < 23,5 cm.",
+        "KEK pada ibu hamil dapat meningkatkan risiko bayi lahir dengan berat badan rendah (BBLR), stunting, hingga kematian ibu dan janin.",
+        "Ciri ibu hamil KEK antara lain LILA di bawah 23,5 cm, tubuh tampak kurus, dan kelelahan berlebihan. Kondisi ini memerlukan intervensi gizi segera.",
+        "KEK dapat dicegah dengan memastikan asupan makanan bergizi seimbang selama hamil, pemeriksaan kehamilan secara rutin, dan pemberian tablet tambah darah.",
+        "Ibu hamil dengan KEK berisiko melahirkan bayi prematur, BBLR, serta mengalami gangguan tumbuh kembang pada anaknya."
+      ]
+    },
+    {
+      "tag": "ibu_hamil_kek_penyebab",
+      "patterns": [
+        "Ibu disebabkan oleh apa?",
+        "Apa yang menyebabkan KEK pada kehamilan?",
+        "Kenapa ibu hamil bisa mengalami KEK?",
+        "Mengapa ibu hamil mengalami Kekurangan Energi Kronis?",
+        "Kenapa bisa terjadi ibu?",
+        "Faktor risiko dari ibu apa aja?",
+        "Kok bisa ibu hamil kena KEK?",
+        "Apa yang menyebabkan ibu?",
+        "Mengapa ibu bisa terjadi?",
+        "Apa faktor risiko KEK bagi ibu hamil?",
+        "KEK terjadi karena apa?",
+        "Apa penyebab KEK pada ibu hamil?",
+        "Kenapa gizi ibu hamil bisa kurang?",
+        "Penyebab utama KEK itu apa?",
+        "Faktor penyebab KEK saat hamil apa saja?"
+      ],
+      "responses": [
+        "KEK pada ibu hamil bisa disebabkan oleh kurangnya asupan makanan bergizi, terutama protein dan energi, baik sebelum maupun selama kehamilan.",
+        "Penyebab KEK antara lain pola makan tidak seimbang, mual muntah berlebihan (hiperemesis), penyakit kronis, dan kemiskinan.",
+        "Ibu hamil yang mengalami kehamilan berulang dalam jarak dekat berisiko lebih tinggi mengalami KEK.",
+        "Faktor sosial seperti pengetahuan gizi rendah dan terbatasnya akses ke layanan kesehatan juga bisa memicu KEK."
+      ]
+    },
+    {
+      "tag": "ibu_hamil_kek_solusi",
+      "patterns": [
+        "Apa yang bisa dilakukan agar ibu hamil tidak KEK?",
+        "Solusi untuk ibu itu apa?",
+        "Apa solusi untuk ibu hamil yang KEK?",
+        "Bagaimana mencegah kekurangan energi kronis?",
+        "Apa yang harus dilakukan jika ibu hamil mengalami KEK?",
+        "Bagaimana cara mencegah KEK pada ibu hamil?",
+        "Solusi KEK itu apa?",
+        "Apa yang bisa dilakukan agar tidak ibu?",
+        "Langkah mencegah ibu gimana ya?",
+        "Langkah-langkah mengatasi KEK itu apa?",
+        "Tips agar ibu hamil tidak kekurangan gizi",
+        "Apa upaya terbaik mengatasi ibu?",
+        "Bagaimana mencegah ibu?",
+        "Bagaimana mengatasi KEK saat hamil?",
+        "Apakah KEK bisa disembuhkan?"
+      ],
+      "responses": [
+        "KEK bisa dicegah dengan mengonsumsi makanan bergizi seimbang, tinggi kalori dan protein seperti telur, susu, daging, dan kacang-kacangan.",
+        "Penting untuk melakukan pemeriksaan kehamilan secara rutin dan mengukur LILA untuk mendeteksi dini KEK.",
+        "Ibu hamil sebaiknya rutin mengonsumsi tablet tambah darah (TTD) dan suplemen zat besi sesuai anjuran tenaga kesehatan.",
+        "Memberikan edukasi gizi kepada ibu dan keluarga serta akses terhadap program makanan tambahan dari puskesmas juga sangat membantu."
+      ]
+    },
+    {
+      "tag": "ibu_hamil_kek_dampak",
+      "patterns": [
+        "Dampak dari ibu itu apa aja?",
+        "Apa dampak KEK pada ibu hamil?",
+        "Efek buruk dari ibu itu apa?",
+        "Apa efek samping KEK dalam kehamilan?",
+        "Apakah KEK bisa sebabkan komplikasi kehamilan?",
+        "Apa akibat dari KEK saat hamil?",
+        "Dampak buruk KEK itu apa?",
+        "Apa dampaknya kalau mengalami ibu?",
+        "Apa risiko KEK bagi ibu hamil?",
+        "Bagaimana KEK memengaruhi janin?",
+        "KEK berbahaya ga sih?",
+        "Ibu itu bahayanya apa?",
+        "Apa akibat kalau kena ibu?",
+        "Bahaya KEK untuk ibu dan janin apa saja?",
+        "Apa yang bisa terjadi jika ibu hamil KEK?"
+      ],
+      "responses": [
+        "KEK dapat menyebabkan ibu hamil melahirkan bayi dengan berat badan lahir rendah (BBLR), stunting, atau bahkan kematian janin.",
+        "Ibu hamil dengan KEK berisiko mengalami anemia, persalinan prematur, dan komplikasi saat melahirkan.",
+        "KEK juga berdampak pada lambatnya pertumbuhan dan perkembangan janin karena kekurangan zat gizi penting.",
+        "Selain membahayakan janin, KEK meningkatkan risiko kematian ibu saat persalinan karena kondisi tubuh yang lemah."
+      ]
+    },
+    {
+      "tag": "ibu_hamil_kek_ciri",
+      "patterns": [
+        "Bagaimana tahu kalau ada ibu?",
+        "Tanda KEK pada ibu hamil?",
+        "Ciri umum dari ibu itu gimana?",
+        "Apa gejala awal ibu?",
+        "Ciri-ciri ibu hamil yang KEK itu apa saja?",
+        "Bagaimana mengenali KEK saat hamil?",
+        "Gimana tahu ibu hamil kena KEK?",
+        "Gimana tanda seseorang mengalami ibu?",
+        "Apakah KEK ada tanda khususnya?",
+        "Apa saja ciri-ciri ibu?",
+        "KEK bisa dikenali dari apa?",
+        "Ibu hamil KEK terlihat seperti apa?",
+        "Apa gejala KEK pada kehamilan?",
+        "Gejala awal KEK saat hamil?",
+        "Tanda-tanda KEK pada ibu hamil?"
+      ],
+      "responses": [
+        "Salah satu ciri utama KEK pada ibu hamil adalah lingkar lengan atas (LILA) kurang dari 23,5 cm.",
+        "Ciri lainnya termasuk tubuh tampak kurus, lemah, sering lelah, dan kurang nafsu makan.",
+        "Ibu hamil KEK biasanya berat badannya tidak bertambah sesuai usia kehamilan.",
+        "Gejala bisa juga berupa wajah pucat, mudah pusing, dan daya tahan tubuh lemah."
+      ]
+    },
+    {
+      "tag": "gizi_ibu_hamil",
+      "patterns": [
+        "Gizi apa yang dibutuhkan ibu hamil?",
+        "Makanan bergizi untuk ibu hamil apa saja?",
+        "Apa aja yang perlu diketahui tentang gizi?",
+        "Makanan sehat ibu hamil itu apa saja?",
+        "Gizi itu seperti apa?",
+        "Nutrisi penting saat hamil apa saja?",
+        "Asupan gizi ibu hamil harus seperti apa?",
+        "Gizi seimbang untuk ibu hamil seperti apa?",
+        "Saya mau tanya tentang gizi",
+        "Apa saja kebutuhan nutrisi ibu hamil?",
+        "Ada info soal gizi?",
+        "Ceritakan tentang gizi dong",
+        "Apa contoh pola makan sehat untuk ibu hamil?",
+        "Apa yang harus dimakan saat hamil?",
+        "Apa yang harus dikonsumsi ibu hamil?"
+      ],
+      "responses": [
+        "Ibu hamil membutuhkan gizi seimbang yang mencakup karbohidrat, protein, lemak sehat, vitamin, dan mineral seperti zat besi, asam folat, dan kalsium.",
+        "Penting bagi ibu hamil untuk mengonsumsi makanan sumber protein (telur, ikan, daging), sayur dan buah, serta susu atau produk olahannya.",
+        "Asam folat penting untuk mencegah cacat tabung saraf pada janin, sedangkan zat besi membantu mencegah anemia.",
+        "Ibu hamil dianjurkan makan 3 kali sehari dengan 2 kali selingan bergizi, serta cukup minum air putih."
+      ]
+    },
+    {
+      "tag": "gizi_ibu_menyusui",
+      "patterns": [
+        "Ibu menyusui perlu makan apa?",
+        "Nutrisi ibu menyusui harus bagaimana?",
+        "Apa yang bisa membantu produksi ASI?",
+        "Apa yang sebaiknya dikonsumsi saat menyusui?",
+        "Ceritakan tentang gizi dong",
+        "Apa saja kebutuhan gizi ibu menyusui?",
+        "Gizi itu seperti apa?",
+        "Makanan sehat untuk ibu menyusui apa saja?",
+        "Ada info soal gizi?",
+        "Gizi seimbang saat menyusui?",
+        "Saya mau tanya tentang gizi",
+        "Apa pola makan ibu menyusui yang baik?",
+        "Apa makanan pelancar ASI?",
+        "Apa aja yang perlu diketahui tentang gizi?",
+        "Gizi penting untuk ibu menyusui?"
+      ],
+      "responses": [
+        "Ibu menyusui membutuhkan kalori lebih banyak dari biasanya, serta gizi lengkap: karbohidrat, protein, lemak, vitamin, dan mineral.",
+        "Konsumsi makanan tinggi zat besi, kalsium, vitamin B, dan cairan sangat penting untuk menunjang kualitas dan kuantitas ASI.",
+        "Minumlah air putih minimal 8–10 gelas sehari untuk menjaga hidrasi selama menyusui.",
+        "Makanan pelancar ASI antara lain daun katuk, kacang-kacangan, oatmeal, dan sayuran hijau."
+      ]
+    },
+    {
+      "tag": "gizi_ibu_pentingnya",
+      "patterns": [
+        "Ada info soal gizi?",
+        "Mengapa ibu hamil harus makan bergizi?",
+        "Apa pentingnya gizi bagi ibu menyusui?",
+        "Apakah gizi ibu berpengaruh ke janin?",
+        "Apa dampak jika ibu kurang gizi?",
+        "Gizi itu seperti apa?",
+        "Ceritakan tentang gizi dong",
+        "Mengapa ibu hamil harus konsumsi zat besi?",
+        "Apa aja yang perlu diketahui tentang gizi?",
+        "Apa manfaat gizi cukup bagi ibu?",
+        "Kenapa ibu hamil perlu asam folat?",
+        "Kenapa gizi ibu itu penting?",
+        "Kenapa asupan gizi harus dijaga saat hamil?",
+        "Saya mau tanya tentang gizi",
+        "Kenapa ibu menyusui butuh banyak nutrisi?"
+      ],
+      "responses": [
+        "Gizi yang baik membantu tumbuh kembang janin, mencegah komplikasi kehamilan, dan menjaga kesehatan ibu.",
+        "Kekurangan gizi saat hamil bisa menyebabkan bayi lahir prematur, BBLR, atau bahkan stunting.",
+        "Gizi cukup pada ibu menyusui memastikan ASI berkualitas tinggi dan membantu pemulihan pasca-melahirkan.",
+        "Asupan zat besi dan asam folat membantu mencegah anemia dan mendukung perkembangan otak janin."
+      ]
+    },
+    {
+      "tag": "pantangan_makanan_ibu",
+      "patterns": [
+        "Ibu menyusui tidak boleh makan apa?",
+        "Apa makanan yang bisa berbahaya bagi janin?",
+        "Apa aja yang perlu diketahui tentang pantangan?",
+        "Apa yang tidak boleh dimakan saat menyusui?",
+        "Ceritakan tentang pantangan dong",
+        "Bolehkah ibu hamil makan makanan mentah?",
+        "Apa yang sebaiknya dihindari ibu hamil?",
+        "Pantangan itu seperti apa?",
+        "Makanan apa yang menyebabkan gangguan kehamilan?",
+        "Saya mau tanya tentang pantangan",
+        "Ada info soal pantangan?",
+        "Makanan pantangan saat hamil apa aja?",
+        "Makanan berbahaya untuk ibu hamil?",
+        "Pantangan makanan ibu menyusui?",
+        "Apa saja makanan yang harus dihindari ibu hamil?"
+      ],
+      "responses": [
+        "Ibu hamil sebaiknya menghindari makanan mentah seperti sushi, telur mentah, dan daging yang tidak matang.",
+        "Pantangan lain termasuk makanan tinggi kafein, makanan instan berpengawet, serta minuman beralkohol.",
+        "Ibu menyusui sebaiknya menghindari makanan pedas berlebihan, berkafein tinggi, dan makanan yang bisa menyebabkan alergi pada bayi.",
+        "Juga hindari ikan laut tinggi merkuri seperti hiu, tuna besar, atau mackerel raja karena bisa membahayakan perkembangan janin."
+      ]
+    },
+    {
+      "tag": "menu_sehat_ibu",
+      "patterns": [
+        "Saya mau tanya tentang menu",
+        "Ceritakan tentang menu dong",
+        "Makanan harian sehat untuk ibu menyusui?",
+        "Rekomendasi makanan untuk ibu menyusui?",
+        "Ada info soal menu?",
+        "Menu makanan seimbang ibu menyusui?",
+        "Menu makanan bergizi untuk ibu hamil?",
+        "Menu itu seperti apa?",
+        "Contoh menu sehat untuk ibu hamil?",
+        "Apa aja yang perlu diketahui tentang menu?",
+        "Contoh makan pagi siang malam ibu hamil?",
+        "Apa yang bisa dimakan tiap hari oleh ibu hamil?",
+        "Apa menu harian ibu menyusui yang baik?",
+        "Apa menu makanan ibu yang mendukung ASI?",
+        "Gimana contoh menu bergizi ibu hamil?"
+      ],
+      "responses": [
+        "Contoh menu sehat ibu hamil: pagi nasi, telur rebus, bayam tumis; siang ayam panggang, tahu, wortel; malam nasi, ikan kukus, brokoli.",
+        "Menu ibu menyusui: pagi oatmeal + susu, siang nasi + ikan + sayur bening, malam sup ayam + nasi + buah.",
+        "Cemilan sehat: kacang-kacangan, buah segar, roti gandum, atau jus tanpa gula tambahan.",
+        "Penting makan teratur 3 kali sehari dengan 2 selingan bergizi, serta minum cukup air putih."
+      ]
+    },
+    {
+      "tag": "makanan_tambahan_kek_anemia",
+      "patterns": [
+        "Makanan tinggi zat besi apa yang baik untuk ibu hamil?",
+        "Ceritakan tentang makanan dong",
+        "Apa makanan untuk mengatasi KEK?",
+        "Makanan penambah darah alami ibu hamil?",
+        "Ibu hamil lemas harus makan apa?",
+        "Makanan itu seperti apa?",
+        "Ibu KEK harus makan apa biar sehat?",
+        "Apa makanan pemulih energi untuk ibu KEK?",
+        "Apa makanan tambahan untuk ibu hamil anemia?",
+        "Ada info soal makanan?",
+        "Gizi tambahan untuk ibu anemia apa aja?",
+        "Apa aja yang perlu diketahui tentang makanan?",
+        "Suplemen atau makanan tambahan KEK?",
+        "Makanan tambahan untuk ibu hamil KEK apa saja?",
+        "Saya mau tanya tentang makanan"
+      ],
+      "responses": [
+        "Ibu KEK disarankan mengonsumsi makanan tinggi protein dan kalori: telur, daging, ikan, susu, kacang-kacangan, dan alpukat.",
+        "Untuk anemia, makan makanan tinggi zat besi seperti hati ayam, bayam, kacang merah, dan konsumsi vitamin C untuk bantu penyerapan zat besi.",
+        "Puskesmas juga menyediakan PMT (Pemberian Makanan Tambahan) dan tablet tambah darah untuk ibu KEK atau anemia.",
+        "Cemilan sehat berkalori tinggi seperti biskuit PMT, susu, pisang, atau ubi juga dianjurkan untuk bantu pemulihan energi."
+      ]
+    }
+  ]
+}

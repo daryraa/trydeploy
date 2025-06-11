@@ -1,0 +1,241 @@
+{
+"numerical_columns": [
+        "Umur Ibu (tahun)",
+        "TB (cm)",
+        "Jarak Hamil",
+        "Tinggi Fundus Uteri (TFU)",
+        "Detak Jantung Janin",
+        "Pemeriksaan HB",
+        "Panjang BBL (cm)",
+        "Berat BBL (gr)",
+        "Sistol",
+        "Diastol",
+        "Gravida",
+        "Para",
+        "Abortus",
+        "Usia Kehamilan Minggu"
+    ],
+    "categorical_columns": [
+        "Jenis Asuransi",
+        "IMT Sebelum Hamil",
+        "Status Td",
+        "Presentasi",
+        "Gol Darah dan Rhesus",
+        "Rujuk Ibu Hamil",
+        "Faskes Rujukan",
+        "Konseling",
+        "Komplikasi",
+        "Cara Persalinan",
+        "Tempat Bersalin",
+        "Penolong Persalinan",
+        "Kondisi Ibu",
+        "Kondisi Bayi",
+        "Komplikasi Persalinan",
+        "Rujuk Ibu Bersalin (Ya / Tidak)",
+        "Komplikasi Masa Nifas",
+        "Rujuk Ibu Nifas",
+        "Kelurahan/Desa"
+    ],
+
+    "numerical_imputer": {
+        "mean": [
+            28.358069748580697,
+            154.78620235198701,
+            4.518957826439578,
+            26.254541768045417,
+            141.90612327656123,
+            11.51147607461476,
+            48.95686602890629,
+            3054.0397535746165,
+            111.33404298459043,
+            73.1646390916464,
+            2.110300081103001,
+            1.0623479318734794,
+            0.10644768856447688,
+            39.996350364963504
+        ],
+        "scale": null
+    },
+    "categorical_encoder": {
+        "categories": [
+            [
+                "BPJS",
+                "Lainnya",
+                "Tidak Mempunyai Asuransi"
+            ],
+            [
+                "Gemuk/Obesitas",
+                "Kurus",
+                "Normal"
+            ],
+            [
+                "T1",
+                "T2",
+                "T3"
+            ],
+            [
+                "Bagian Tubuh Lainnya",
+                "Belum Terdeteksi",
+                "Bokong",
+                "Kepala"
+            ],
+            [
+                "A+",
+                "A-",
+                "AB+",
+                "AB-",
+                "B+",
+                "B-",
+                "O+",
+                "O-"
+            ],
+            [
+                "Tidak",
+                "Ya"
+            ],
+            [
+                "Puskesmas PONED",
+                "RS",
+                "Tidak Dirujuk"
+            ],
+            [
+                "Tidak",
+                "Tidak Diketahui",
+                "Tidak diketahui",
+                "Ya"
+            ],
+            [
+                "Abortus",
+                "Abortus, Perdarahan",
+                "Eklampsia",
+                "Hiperemesis Gravidarum",
+                "Hipertensi Dalam Kehamilan",
+                "Hipertensi Dalam Kehamilan, Pre Eklampsia",
+                "Infeksi",
+                "Infeksi, Ketuban Pecah Dini, Pre Eklampsia",
+                "Ketuban Pecah Dini",
+                "Komplikasi Tidak Spesifik",
+                "Kurang Energi Kronis",
+                "Kurang Energi Kronis, Pre Eklampsia",
+                "Obesitas",
+                "Perdarahan",
+                "Pre Eklampsia",
+                "Tidak Ada",
+                "Tidak Diketahui"
+            ],
+            [
+                "Forceps",
+                "Normal",
+                "Sectio Caesaria",
+                "Vaccum"
+            ],
+            [
+                "PMB",
+                "Poskesdes",
+                "Puskesmas",
+                "Pustu",
+                "RB",
+                "RS",
+                "RSIA",
+                "Rumah",
+                "Tidak Diketahui",
+                "Tidak diketahui"
+            ],
+            [
+                "Bidan",
+                "Dokter Spesialis Obgyn",
+                "Dokter Umum",
+                "Dukun",
+                "Keluarga",
+                "Lainnya",
+                "Spesialis",
+                "Tidak Diketahui",
+                "Tidak diketahui"
+            ],
+            [
+                "Hidup",
+                "Meninggal",
+                "Tidak diketahui"
+            ],
+            [
+                "Hidup",
+                "Meninggal",
+                "Tidak diketahui"
+            ],
+            [
+                "Eklampsia",
+                "Gemeli",
+                "Perdarahan",
+                "Pre eklampsia",
+                "Tidak Ada"
+            ],
+            [
+                "Tidak",
+                "Ya"
+            ],
+            [
+                "Eklampsia",
+                "Perdarahan",
+                "Pre eklampsia",
+                "Tidak Ada"
+            ],
+            [
+                "Tidak",
+                "Tidak diketahui",
+                "Ya"
+            ],
+            [
+                "Adiarsa",
+                "Anggadita",
+                "Balongsari",
+                "Batujaya",
+                "Bayur Lor",
+                "Ciampel",
+                "Cibuaya",
+                "Cicinde",
+                "Cikampek",
+                "Cikutra",
+                "Cilamaya",
+                "Curug",
+                "Gempol",
+                "Jayakerta",
+                "Jomin",
+                "Kalangsari",
+                "Karawang Kota",
+                "Karawang Kulon",
+                "Kertamukti",
+                "Klari",
+                "Kota Baru",
+                "Kutamukti",
+                "Kutawaluya",
+                "Lemah Abang",
+                "Lemah Duhur",
+                "Loji",
+                "Majalaya",
+                "Medang Asem",
+                "Nagasari",
+                "PKM Plawad",
+                "PKM Telukjambe",
+                "PKM Wanakerta",
+                "Pacing",
+                "Pakisjaya",
+                "Pangkalan",
+                "Pasir Rukem",
+                "Pedes",
+                "Purwasari",
+                "Rawamerta",
+                "Rengasdengklok",
+                "Sukatani",
+                "Sungai Buntu",
+                "Talagasari",
+                "Tanjungpura",
+                "Tempuran",
+                "Tirtajaya",
+                "Tirtamulya",
+                "Tunggakjati",
+                "Wadas",
+                "jatisari"
+            ]
+        ]
+    }
+}
