@@ -220,7 +220,7 @@ def preprocess_input(user_input, preprocessing_params, expected_features):
 def predict_kek(request: InputData):
     user_input = {
         k: auto_format_value(str(v), k)
-        for k, v in request.data.items()
+        for k, v in request.inputs.items()
     }
 
     X = preprocess_input(user_input, preprocessing_params, expected_features)
@@ -230,9 +230,9 @@ def predict_kek(request: InputData):
     probs = outputs[1][0]
 
     label_dict = {0: "KEK", 1: "Normal", 2: "Resiko KEK"}
-    
+
     return {
-        "status_gizi": label_dict.get(pred_label, "Unknown"), 
-        "probabilitas": probs.tolist()                        
+        "prediction": label_dict.get(pred_label, "Unknown"),  # ✅ label sesuai yang ditampilkan Flutter
+        "probability": float(probs[pred_label])               # ✅ ambil hanya satu angka probability
     }
 
