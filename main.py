@@ -10,9 +10,6 @@ from tensorflow.keras.preprocessing.text import tokenizer_from_json
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 
-# === Model Input ===
-class InputData(BaseModel):  # ✅ DITAMBAH: Sesuai struktur {"data": {...}}
-    data: dict
 # === Inisialisasi FastAPI
 app = FastAPI()
 app.add_middleware(
@@ -220,30 +217,20 @@ def preprocess_input(user_input, preprocessing_params, expected_features):
 
 # --- Endpoint prediksi ---
 @app.post("/predict_kek")
-def predict_kek(request: InputData):  # ✅ DIUBAH: pakai BaseModel InputData
-    print("[INFO] Data diterima:")       # ✅ DITAMBAH: Debug log
-    print(request.data)                  # ✅ DITAMBAH: Debug log
+def predict_kek(request: InputData):
+    user_input = {
+        k: auto_format_value(str(v), k)
+        for k, v in request.data.items()
+    }
 
-    try:
-        user_input = {
-            k: auto_format_value(str(v), k)  # ✅ DIUBAH: pastikan value dalam bentuk string
-            for k, v in request.data.items()
-        }
+    X = preprocess_input(user_input, preprocessing_params, expected_features)
+    outputs = sess.run(None, {input_name: X.astype(np.float32)})
 
-        X = preprocess_input(user_input, preprocessing_params, expected_features)
-        outputs = sess.run(None, {input_name: X.astype(np.float32)})
+    pred_label = int(outputs[0][0])
+    probs = outputs[1][0]
 
-        pred_label = int(outputs[0][0])
-        probs = outputs[1][0]
-
-        label_dict = {0: "KEK", 1: "Normal", 2: "Resiko KEK"}
-        return {
-            "status_gizi": label_dict.get(pred_label, "Unknown"),
-            "probabilitas": probs.tolist()
-        }
-
-    except Exception as e:  # ✅ DITAMBAH: Untuk respon error yang informatif
-        return {
-            "error": str(e),
-            "data": request.data
-        }
+    label_dict = {0: "KEK", 1: "Normal", 2: "Resiko KEK"}
+    return {
+        "status_gizi": label_dict.get(pred_label, "Unknown"),
+        "probabilitas": probs.tolist()
+    }
