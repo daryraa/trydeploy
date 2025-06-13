@@ -230,7 +230,9 @@ def predict_kek(request: InputData):
     probs = outputs[1][0]
 
     label_dict = {0: "KEK", 1: "Normal", 2: "Resiko KEK"}
+    
     return {
-        "status_gizi": label_dict.get(pred_label, "Unknown"),
-        "probabilitas": probs.tolist()
+        "status_gizi": label_dict.get(pred_label, "Unknown"), 
+        "probabilitas": probs.tolist()                        
     }
+
