@@ -1,3 +1,4 @@
+from datetime import datetime
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -30,6 +31,7 @@ with open("tokenizer.json", "r", encoding="utf-8") as f:
 
 with open("label_encoder.json", "r") as f:
     label_encoder = json.load(f)
+
 le = LabelEncoder()
 le.classes_ = np.array(label_encoder)
 
@@ -130,13 +132,14 @@ async def predict_stunting_api(input: StuntingInput):
     }
 
 # ==================== KEK SECTION ====================
-with open("preprocessing_params.json", "r") as f:
-    kek_preproc = json.load(f)
+with open('preprocessing_params.json', 'r') as f:
+    preprocessing_params = json.load(f)
 
-kek_model = ort.InferenceSession("xgb_model.onnx")
-kek_input_name = kek_model.get_inputs()[0].name
-kek_expected_features = kek_model.get_inputs()[0].shape[1]
+sess = ort.InferenceSession('xgb_model.onnx')
+input_name = sess.get_inputs()[0].name
+expected_features = sess.get_inputs()[0].shape[1]
 
+# Kolom
 numerical_columns = [
     'Umur Ibu (tahun)', 'TB (cm)', 'Jarak Hamil', 'Tinggi Fundus Uteri (TFU)', 'Detak Jantung Janin',
     'Pemeriksaan HB', 'Panjang BBL (cm)', 'Berat BBL (gr)', 'Sistol', 'Diastol',
@@ -145,46 +148,89 @@ numerical_columns = [
 
 categorical_columns = [
     'Jenis Asuransi', 'IMT Sebelum Hamil', 'Status Td', 'Presentasi', 'Gol Darah dan Rhesus',
-    'Rujuk Ibu Hamil', 'Faskes Rujukan', 'Konseling', 'Komplikasi', 'Cara Persalinan',
-    'Tempat Bersalin', 'Penolong Persalinan', 'Kondisi Ibu', 'Kondisi Bayi',
-    'Komplikasi Persalinan', 'Rujuk Ibu Bersalin (Ya / Tidak)', 'Komplikasi Masa Nifas',
+    'Rujuk Ibu Hamil', 'Faskes Rujukan', 'Konseling', 'Komplikasi',
+    'Cara Persalinan', 'Tempat Bersalin', 'Penolong Persalinan',
+    'Kondisi Ibu', 'Kondisi Bayi', 'Komplikasi Persalinan',
+    'Rujuk Ibu Bersalin (Ya / Tidak)', 'Komplikasi Masa Nifas',
     'Rujuk Ibu Nifas', 'Kelurahan/Desa'
 ]
 
-def preprocess_input_kek(user_input):
-    means = kek_preproc["numerical_imputer"]["mean"]
-    encoder_cats = kek_preproc["categorical_encoder"]["categories"]
+class InputData(BaseModel):
+    data: dict
 
-    X_num = [float(user_input.get(col, means[i])) if user_input.get(col) not in ["", "NaN", None] else means[i]
-             for i, col in enumerate(numerical_columns)]
+# --- Format & Preprocess ---
+def auto_format_value(value, col_name):
+    value = value.strip()
+    try:
+        if '-' in value:
+            dt = datetime.strptime(value, "%m-%d-%Y")
+            return dt.strftime("%Y-%m-%d")
+    except ValueError:
+        pass
+
+    if value.lower() == "ya":
+        return "Ya"
+    if value.lower() == "tidak":
+        return "Tidak"
+    return value
+
+def preprocess_input(user_input, preprocessing_params, expected_features):
+    means = preprocessing_params["numerical_imputer"]["mean"]
+    encoder_cats = preprocessing_params["categorical_encoder"]["categories"]
+
+    # --- Numerik ---
+    X_num = []
+    for i, col in enumerate(numerical_columns):
+        val = user_input.get(col, "")
+        if val == "" or str(val).lower() == "nan":
+            X_num.append(means[i])
+        else:
+            try:
+                X_num.append(float(val))
+            except ValueError:
+                X_num.append(means[i])
+
+    # --- Kategorikal ---
     X_cat = []
     for i, col in enumerate(categorical_columns):
         val = user_input.get(col, "")
+        if i >= len(encoder_cats):
+            continue
         valid_cats = encoder_cats[i]
         onehot = [1.0 if val == cat else 0.0 for cat in valid_cats]
         if sum(onehot) == 0:
             onehot = [0.0] * len(valid_cats)
         X_cat.extend(onehot)
 
-    X = np.concatenate([np.array(X_num).reshape(1, -1), np.array(X_cat).reshape(1, -1)], axis=1)
-    if X.shape[1] < kek_expected_features:
-        X = np.concatenate([X, np.zeros((1, kek_expected_features - X.shape[1]))], axis=1)
-    elif X.shape[1] > kek_expected_features:
-        X = X[:, :kek_expected_features]
-    return X.astype(np.float32)
+    # --- Gabung & padding ---
+    X_num = np.array(X_num).reshape(1, -1)
+    X_cat = np.array(X_cat).reshape(1, -1)
+    X = np.concatenate([X_num, X_cat], axis=1)
 
-class KEKInput(BaseModel):
-    inputs: dict
+    if X.shape[1] < expected_features:
+        pad_width = expected_features - X.shape[1]
+        X = np.concatenate([X, np.zeros((1, pad_width))], axis=1)
+    elif X.shape[1] > expected_features:
+        X = X[:, :expected_features]
 
+    return X
+
+# --- Endpoint prediksi ---
 @app.post("/predict_kek")
-async def predict_kek_api(input: KEKInput):
-    X = preprocess_input_kek(input.inputs)
-    pred = kek_model.run(None, {kek_input_name: X})
-    pred_label = int(np.argmax(pred[0]))
-    confidence = float(np.max(pred[0][0]))  # ✅ Ambil confidence tertinggi
+def predict_kek(request: InputData):
+    user_input = {
+        k: auto_format_value(str(v), k)
+        for k, v in request.data.items()
+    }
+
+    X = preprocess_input(user_input, preprocessing_params, expected_features)
+    outputs = sess.run(None, {input_name: X.astype(np.float32)})
+
+    pred_label = int(outputs[0][0])
+    probs = outputs[1][0]
 
     label_dict = {0: "KEK", 1: "Normal", 2: "Resiko KEK"}
     return {
-        "prediction": label_dict.get(pred_label, "Unknown"),
-        "probability": confidence 
+        "status_gizi": label_dict.get(pred_label, "Unknown"),
+        "probabilitas": probs.tolist()
     }
